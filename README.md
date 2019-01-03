@@ -1,15 +1,15 @@
 ## Requirements
 
-NodeJS - https://nodejs.org/en/
-gulp: $npm install gulp-cli -g
+NodeJS - [Download](https://nodejs.org/en/)
+`gulp: $npm install gulp-cli -g`
 
 ## Getting Started
 
 Open your OS Command Line Tool
 
-$cd /path/to/theme
-$npm install
-$gulp
+`$cd /path/to/theme`
+`$npm install`
+`$gulp`
 
 ## Finding Things
 
@@ -17,25 +17,25 @@ All development files e.g sass, js etc can be found in /assets folder. The gulp 
 
 ### Template Parts
 
-**Global Parts**
+*Global Parts*
 /views
 
-**Page Sections**
+*Page Sections*
 /views/sections
 
 Section ID's can also easily be edited in the front-page.php without having to jump to each template part.
 
 ### Template SCSS
 
-**Global Parts**
+*Global Parts*
 
 /assets/sass/parts
 
-**Page Sections**
+*Page Sections*
 
 /assets/sass/sections
 
-**Understand BEM Mixin I have used:**
+*Understand BEM Mixin I have used:*
 
 ```
 @include e('element') {
