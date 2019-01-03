@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  width: 100%;
+  @include e('top') {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+  }
+  @include e('bottom') {
+    background-color: $base-dark-color;
+  }
+  @include e('container') {
+    @include site-container();
+  }
+  @include e('navigation') {
+    text-align: center;
+  }
+  @include e('menu') {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    @include e('item') {
+      display: inline-block;
+      @include font-size($menu-font-sizes); // _shared-variables.scss
+      line-height: 34px;
+      text-transform: uppercase;
+      padding: 0 10px;
+      width: 140px;
+      a {
+        text-decoration: none;
+        color: white;
+        padding: 0 15px;
+        display: block;
+      }
+      @include m('active') {
+        color: white;
+      }
+    }
+  }
+}

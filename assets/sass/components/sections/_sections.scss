@@ -1,0 +1,65 @@
+.section {
+
+  @include e('wrap') {
+    width: 100%;
+    padding: 60px 0;
+    @include m('indent') {
+      min-height: 180px;
+      margin-top: -180px;
+    }
+    @include m('with-bg') {
+      background-color: $content-bg-color;
+    }
+  }
+  @include e('content') {
+    @include font-size($p-font-sizes); // _shared-variables.scss
+    &:not(.section__content--intro) {
+      padding-top: 70px;
+    }
+    p {
+      + p {
+        margin-top: 40px;
+      }
+    }
+    @include m('intro') {
+      padding-top: 20px;
+      @include font-size($intro-font-sizes); // _shared-variables.scss
+    }
+  }
+  @include e('title') {
+    position: absolute;
+    h1 {
+      text-transform: uppercase;
+      font-weight: 700;
+      text-decoration: underline;
+      @include font-size($h1-font-sizes);
+    }
+    @include m('rotate') {
+
+    }
+    @include m('pos-left') {
+      left: 0;
+    }
+    @include m('pos-middle') {
+      left: 50%;
+    }
+    @include m('pos-right') {
+      right: 0;
+    }
+  }
+  @include e('column') {
+    width: 50%;
+    display: inline-block;
+    min-height: 1px;
+    &:nth-child(even) {
+      padding-left: 30px;
+      text-align: left;
+      padding-right: 90px;
+    }
+    &:nth-child(odd) {
+      padding-right: 30px;
+      text-align: right;
+      padding-left: 90px;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.flex {
+  display: flex;
+  @include m('nowrap') {
+    flex-wrap: nowrap;
+  }
+  @include m('v-middle') {
+    align-items: center;
+  }
+  @include m('h-middle') {
+    justify-content: center;
+  }
+}

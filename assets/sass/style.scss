@@ -1,0 +1,34 @@
+// Vendors
+@import 'normalize';
+
+
+// Utils
+@import 'utils/colors';
+@import 'utils/shared-variables';
+@import 'utils/functions';
+@import 'utils/mixins';
+@import 'utils/helpers';
+@import 'utils/placeholders';
+
+// Core
+@import 'core';
+
+// Parts
+@import 'components/parts/container';
+@import 'components/parts/links';
+@import 'components/parts/layout';
+@import 'components/parts/header';
+@import 'components/parts/footer';
+
+// Sections
+@import 'components/sections/sections';
+@import 'components/sections/hero';
+@import 'components/sections/impact';
+@import 'components/sections/hotel';
+@import 'components/sections/rooftop';
+@import 'components/sections/courtyard-lunch';
+@import 'components/sections/cocktail';
+@import 'components/sections/register-branners';
+@import 'components/sections/atrium-lunch';
+@import 'components/sections/liketoknow';
+@import 'components/sections/brands';

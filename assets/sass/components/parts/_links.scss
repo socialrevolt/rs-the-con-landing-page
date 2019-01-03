@@ -1,0 +1,19 @@
+.btn {
+  padding: 0 40px;
+  line-height: 50px;
+  display: inline-block;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  @include m('white') {
+    border-color: $base-white-color;
+    color: $base-white-color;
+    &:hover,
+    &:focus {
+      background-color: $base-white-color;
+      color: $base-dark-color;
+    }
+  }
+}

@@ -1,0 +1,72 @@
+//Base
+$base-font-family: 'Montserrat', sans-serif;
+$base-icons-font-family: '';
+
+// Container
+$base-content-padding: 20px;
+$base-content-full-width: 1024px;
+$base-content-width: $base-content-full-width + ($base-content-padding*2);
+
+$breakpoints: (
+  small : 480px,
+  medium: 700px,
+  large : 1024px
+);
+
+//Main menu font sizes
+$menu-font-sizes: (
+  null  : 14px,
+  small : 14px,
+  medium: 16px,
+  900px : 16px,
+  large : 16px,
+  1440px: 16px,
+);
+
+$intro-font-sizes: (
+  null  : (18px, 36px),
+  small : 18px,
+  medium: (20px, 40px),
+  900px : 20px,
+  large : (20px, 40px),
+  1440px: 20px,
+);
+
+$p-font-sizes: (
+  null  : (14px, 28px),
+  small : 14px,
+  medium: (16px, 32px),
+  900px : 16px,
+  large : (16px, 32px),
+  1440px: 16px,
+);
+
+//H1 heading sizes
+$h1-font-sizes: (
+  null  : (30px, 38px),
+  small : 30px,
+  medium: (36px, 44px),
+  900px : 36px,
+  large : (40px, 48px),
+  1440px: 40px,
+);
+
+
+//Typography
+$typography-map: (
+  mobile: (
+    giant:          72px,
+    huge:           42px,
+    biggest:        30px,
+    bigger:         28px,
+    big:            26px,
+    largest:        24px,
+    larger:         22px,
+    large:          20px,
+    default:        18px,
+    medium:         16px,
+    small:          14px,
+    smaller:        12px,
+    tiny:           11px
+  )
+);

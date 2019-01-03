@@ -1,0 +1,11 @@
+.outer-container {
+  @include site-container();
+}
+
+.inner-container {
+  @include container();
+  @include m('reduced') {
+    position: relative;
+    padding: 0 85px;
+  }
+}

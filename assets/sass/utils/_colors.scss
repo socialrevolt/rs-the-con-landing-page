@@ -1,0 +1,23 @@
+$base-dark-color:        #000000;
+$base-white-color:       #FFFFFF;
+$base-off-white-color:   #f2f2f2;
+
+// Defaults
+$base-text-color: $base-dark-color;
+$base-bg-color: $base-white-color;
+$content-bg-color: $base-off-white-color;
+
+$base-primary-color: $base-dark-color;
+
+// Text color helper
+$color-map: (
+  primary:    $base-dark-color,
+  white:      $base-white-color
+);
+
+$links-map: (
+  default: (
+    color: $base-primary-color,
+    hover: $base-dark-color
+  )
+);

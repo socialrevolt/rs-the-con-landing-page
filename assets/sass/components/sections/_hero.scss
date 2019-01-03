@@ -1,0 +1,46 @@
+.hero {
+  width: 100%;
+  @include e('viewport') {
+    position: relative;
+    height: 575px;
+  }
+}
+
+.video-viewport {
+  position: absolute;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 5;
+    content: '';
+    background-color: rgba(0,0,0,0.5);
+  }
+  video {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+  }
+}
+
+.hero-content {
+  text-align: center;
+  .hero-image {
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+}
+
+.content-viewport {
+  position: relative;
+  z-index: 10;
+  min-height: 100%;
+  padding-bottom: 180px;
+}

@@ -1,0 +1,14 @@
+// Rotate helpers
+.orientation {
+  &--0 {transform: rotate(0);}
+  &--90 {transform: rotate(90deg);}
+  &--180 {transform: rotate(180deg);}
+}
+
+.hide {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
