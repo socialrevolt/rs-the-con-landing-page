@@ -1,0 +1,10 @@
+.section {
+  @include m('event-schedule') {
+    .section__content {
+      padding-top: 0;
+    }
+    .section__image {
+      margin-top: 110px;
+    }
+  }
+}

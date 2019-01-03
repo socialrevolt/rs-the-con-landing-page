@@ -1,7 +1,6 @@
 // Vendors
 @import 'normalize';
 
-
 // Utils
 @import 'utils/colors';
 @import 'utils/shared-variables';
@@ -20,6 +19,9 @@
 @import 'components/parts/header';
 @import 'components/parts/footer';
 
+// Elements
+@import 'components/parts/elements';
+
 // Sections
 @import 'components/sections/sections';
 @import 'components/sections/hero';
@@ -28,6 +30,7 @@
 @import 'components/sections/rooftop';
 @import 'components/sections/courtyard-lunch';
 @import 'components/sections/cocktail';
+@import 'components/sections/schedule';
 @import 'components/sections/banners';
 @import 'components/sections/atrium-lunch';
 @import 'components/sections/liketoknow';

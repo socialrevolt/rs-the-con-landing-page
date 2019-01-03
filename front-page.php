@@ -5,6 +5,8 @@
 //  1. Hero/Intro
 //  2. Real Impact
 //  3. Quote Banner
+//  4. Hotel Crescent Court
+//  5. Event Schedule
 //--------------------------------
 
 $id_1 = 'the-conference';
@@ -23,5 +25,11 @@ get_header();
     include( locate_template( 'views/sections/real-impact.php', false, false ) );
     // 3. Full Width Quote Banner
     include( locate_template( 'views/sections/full-width-banner-1.php', false, false ) );
+    // 4. Hotel Crescent Court
+    include( locate_template( 'views/sections/hotel-crescent-court.php', false, false ) );
+    // 5. Event Schedule
+    include( locate_template( 'views/sections/event-schedule.php', false, false ) );
+    // 6. Full Width Banner Register
+    include( locate_template( 'views/sections/full-width-banner-2.php', false, false ) );
   endwhile;
 get_footer();

@@ -346,6 +346,9 @@ function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterat
 });
 "use strict";
 
+//--------------------
+// IMAGE LAZY LOADING
+//--------------------
 window.lazySizesConfig = window.lazySizesConfig || {};
 
 var lazy = function lazy() {
@@ -362,7 +365,7 @@ jQuery(document).ready(function ($) {
   //--------------------
   // Select all links with hashes
   $('a[href*="#"]') // Remove links that don't actually link to anything
-  .not('[href="#"]').not('[href="#0"]').click(function (event) {
+  .not('[href="#"]').not('[href="#0"]').not('.tab-link').click(function (event) {
     // On-page links
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       // Figure out element to scroll to
@@ -393,5 +396,61 @@ jQuery(document).ready(function ($) {
         });
       }
     }
+  }); //--------------------
+  // ANCHOR TABS
+  //--------------------
+
+  var $tabs = $('.tabs > div'),
+      _currhash,
+      $currTab,
+      $links = $('.tab-navigation > a');
+
+  $(document).on('click', '.tab-navigation > a', function (e) {
+    var $el = $(this);
+    $el.addClass("active").siblings().removeClass('active');
   });
+
+  function showTab() {
+    if ($currTab.length > 0) {
+      $tabs.removeClass('active');
+      $currTab.addClass('active');
+    }
+  }
+
+  function tabLink() {
+    $links.each(function () {
+      $(this).removeClass('active');
+      var currentHref = $(this).attr('href');
+
+      if (_currhash == currentHref) {
+        $(this).addClass("active");
+      }
+    });
+  }
+  /* find the panels and 'unlink' the id to prevent page jump */
+
+
+  $tabs.each(function () {
+    var _id = $(this).attr('id');
+
+    $(this).attr('id', _id + '_tab');
+    /* eg we have given the tab an id of 'tab1_tab' */
+  });
+  /* set up an anchor 'watch' for the panels */
+
+  function anchorWatch() {
+    if (document.location.hash.length > 0) {
+      /* only run if 'hash' has changed */
+      if (_currhash !== document.location.hash) {
+        _currhash = document.location.hash;
+        /* we only want to match the 'unlinked' id's */
+
+        $currTab = $(_currhash + '_tab');
+        showTab();
+        tabLink();
+      }
+    }
+  }
+
+  setInterval(anchorWatch, 200);
 });

@@ -17,3 +17,16 @@
     }
   }
 }
+
+.text-link {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  @include font-size($link-font-sizes);
+  @include m('white') {
+    color: $base-white-color;
+  }
+  @include m('black') {
+    color: $base-dark-color;
+  }
+}

@@ -27,6 +27,7 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
       padding-top: 70px;
     }
     p {
+      margin: 0;
       + p {
         margin-top: 40px;
       }
@@ -117,5 +118,15 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
       line-height: 32px;
       font-weight: 400;
     }
+  }
+  @include e('cover-image') {
+    position: relative;
+    z-index: 5;
+    width: calc(100% + #{$column-spacing-outer * 2});
+    margin-left: -$column-spacing-outer;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }

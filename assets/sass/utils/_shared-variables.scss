@@ -23,6 +23,16 @@ $menu-font-sizes: (
   1440px: 16px,
 );
 
+//Main menu font sizes
+$link-font-sizes: (
+  null  : (18px, 24px),
+  small : 18px,
+  medium: (23px, 27px),
+  900px : 23px,
+  large : (23px, 27px),
+  1440px: 23px,
+);
+
 $intro-font-sizes: (
   null  : (18px, 36px),
   small : 18px,

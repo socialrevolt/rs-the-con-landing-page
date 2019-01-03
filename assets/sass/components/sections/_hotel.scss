@@ -1,0 +1,36 @@
+.section {
+  @include m('crescent-court') {
+    z-index: 999;
+    position: relative;
+    .inner-container {
+      position: relative;
+      margin-top: -100px;
+      z-index: 10;
+    }
+    .section__title {
+      top: -100px;
+      text-align: left;
+      @include m('pos-left') {
+        left: -$column-spacing-outer;
+        h1 {
+          margin-left: -80px;
+        }
+      }
+    }
+  }
+}
+
+.reservation-info {
+  position: absolute;
+  bottom: 0;
+  padding-right: 30px;
+  p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #666666;
+    font-weight: 500;
+    + p {
+      margin-top: 30px;
+    }
+  }
+}

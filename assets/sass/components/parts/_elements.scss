@@ -1,0 +1,23 @@
+.tabs {
+  > div {
+    display:none;
+    &.active {
+      display:block;
+    }
+  }
+}
+
+.tab-navigation {
+  .tab-link {
+    display: block;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #999999;
+    &.active {
+      color: $base-dark-color;
+    }
+  }
+}
