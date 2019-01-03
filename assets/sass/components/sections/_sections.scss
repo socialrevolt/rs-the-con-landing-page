@@ -102,6 +102,7 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
     }
   }
   @include e('quote') {
+    padding: 0 60px;
     margin: 0;
     p, span {
       color: $base-white-color;
@@ -109,7 +110,7 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
     p {
       @include font-size($intro-font-sizes);
       font-weight: 700;
-      margin-bottom: 100px;
+      margin-bottom: 80px;
     }
     span {
       font-size: 16px;
