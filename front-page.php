@@ -17,11 +17,11 @@ $id_7 = '';
 
 get_header();
   while( have_posts() ): the_post();
-  // 1. Main Hero/Intro Section
-  include( locate_template( 'views/sections/hero.php', false, false ) );
-  // 2. REAL IMPACT section
-  include( locate_template( 'views/sections/real-impact.php', false, false ) );
-  // 3. Full Width Quote Banner
-  include( locate_template( 'views/sections/full-width-banner-1.php', false, false ) );
+    // 1. Main Hero/Intro Section
+    include( locate_template( 'views/sections/hero.php', false, false ) );
+    // 2. REAL IMPACT section
+    include( locate_template( 'views/sections/real-impact.php', false, false ) );
+    // 3. Full Width Quote Banner
+    include( locate_template( 'views/sections/full-width-banner-1.php', false, false ) );
   endwhile;
 get_footer();

@@ -1,0 +1,21 @@
+.banner {
+  position: relative;
+  width: 100%;
+  min-height: 365px;
+  background-color: $base-off-white-color;
+  .outer-container {
+    position: relative;
+    z-index: 10;
+  }
+  @include m('quote') {
+    text-align: center;
+  }
+  @include e('bg') {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: bottom center;
+  }
+}

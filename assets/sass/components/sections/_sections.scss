@@ -4,10 +4,12 @@ $column-spacing-total: $column-spacing-inner + $column-spacing-outer;
 $column-spacing-image: $column-spacing-total + $column-spacing-inner;
 
 .section {
-
+  @include m('padding') {
+    padding: 50px 0;
+  }
   @include e('wrap') {
     width: 100%;
-    padding: 60px 0;
+    padding: 80px 0;
     @include m('indent') {
       min-height: 180px;
       margin-top: -180px;
@@ -30,7 +32,6 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
       }
     }
     @include m('intro') {
-      padding-top: 20px;
       @include font-size($intro-font-sizes); // _shared-variables.scss
     }
   }
@@ -98,6 +99,22 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
       padding-right: $column-spacing-inner;
       text-align: right;
       padding-left: $column-spacing-outer;
+    }
+  }
+  @include e('quote') {
+    margin: 0;
+    p, span {
+      color: $base-white-color;
+    }
+    p {
+      @include font-size($intro-font-sizes);
+      font-weight: 700;
+      margin-bottom: 100px;
+    }
+    span {
+      font-size: 16px;
+      line-height: 32px;
+      font-weight: 400;
     }
   }
 }
