@@ -1,17 +1,17 @@
-<section class="section real-impact" id="<?php echo $id_2; ?>" style="z-index: 999; position: relative;">
+<section class="section section--real-impact" id="<?php echo $id_2; ?>">
   <div class="outer-container">
     <div class="inner-container inner-container--reduced">
       <div class="section__wrap section__wrap--indent section__wrap--with-bg flex flex--nowrap">
 
         <div class="section__column">
           <div class="section__title section__title--pos-left">
-            <h1>Real Impact</h1>
+            <h1 class="orientation--270">Real<br> Impact</h1>
           </div>
           <div class="section__content section__content--intro">rewardStyle the Conference is an annual, invitation-only event for select global influeners and brands.</div>
-          <div class="">
-            <picture>
-
-            </picture>
+          <div class="section__image">
+            <div class="section__image__wrap loading">
+              <img class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/cocktail-1.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+            </div>
           </div>
         </div>
 

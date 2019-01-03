@@ -1,3 +1,8 @@
+$column-spacing-inner: 30px;
+$column-spacing-outer: 90px;
+$column-spacing-total: $column-spacing-inner + $column-spacing-outer;
+$column-spacing-image: $column-spacing-total + $column-spacing-inner;
+
 .section {
 
   @include e('wrap') {
@@ -11,6 +16,9 @@
       background-color: $content-bg-color;
     }
   }
+  //---------------------------
+  //  Styling for Section CONTENT
+  //---------------------------
   @include e('content') {
     @include font-size($p-font-sizes); // _shared-variables.scss
     &:not(.section__content--intro) {
@@ -26,19 +34,48 @@
       @include font-size($intro-font-sizes); // _shared-variables.scss
     }
   }
+  //---------------------------
+  //  Styling for Section IMAGES
+  //---------------------------
+  @include e('image') {
+    position: relative;
+    //margin-left: -$column-spacing-outer;
+    width: calc(100% + #{$column-spacing-image});
+    padding-right: $column-spacing-inner;
+    min-height: 1px;
+    margin-left: -#{$column-spacing-outer};
+    @include e('wrap') {
+      background-color: $base-grey-color;
+      width: 100%;
+      margin-left: -#{$column-spacing-outer};
+      img {
+        min-width: 100%;
+        display: block;
+      }
+    }
+  }
+  //---------------------------
+  //  Styling for Section TITLES
+  //---------------------------
   @include e('title') {
     position: absolute;
+    z-index: 100;
     h1 {
       text-transform: uppercase;
       font-weight: 700;
       text-decoration: underline;
+      margin: 0;
       @include font-size($h1-font-sizes);
     }
     @include m('rotate') {
 
     }
     @include m('pos-left') {
-      left: 0;
+      left: -$column-spacing-outer;
+      h1 {
+        transform-origin: bottom;
+        margin-left: 25px;
+      }
     }
     @include m('pos-middle') {
       left: 50%;
@@ -48,18 +85,19 @@
     }
   }
   @include e('column') {
+    position: relative;
     width: 50%;
     display: inline-block;
     min-height: 1px;
     &:nth-child(even) {
-      padding-left: 30px;
+      padding-left: $column-spacing-inner;
       text-align: left;
-      padding-right: 90px;
+      padding-right: $column-spacing-outer;
     }
     &:nth-child(odd) {
-      padding-right: 30px;
+      padding-right: $column-spacing-inner;
       text-align: right;
-      padding-left: 90px;
+      padding-left: $column-spacing-outer;
     }
   }
 }

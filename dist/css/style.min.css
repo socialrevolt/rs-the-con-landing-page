@@ -35,6 +35,7 @@ template{display:none}
 .orientation--0{-webkit-transform:rotate(0);transform:rotate(0)}
 .orientation--90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .orientation--180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+.orientation--270{-webkit-transform:rotate(270deg);transform:rotate(270deg)}
 .hide{display:none}
 .clear{clear:both}
 .outer-container,.header__container,.footer__container{padding-left:20px;padding-right:20px}
@@ -70,12 +71,16 @@ body.overflow-hidden{overflow:hidden}
 .section__content:not(.section__content--intro){padding-top:70px}
 .section__content p+p{margin-top:40px}
 .section__content--intro{padding-top:20px;font-size:18px;line-height:36px}
-.section__title{position:absolute}
-.section__title h1{text-transform:uppercase;font-weight:700;text-decoration:underline;font-size:30px;line-height:38px}
-.section__title--pos-left{left:0}
+.section__image{position:relative;width:calc(100% + 150px);padding-right:30px;min-height:1px;margin-left:-90px}
+.section__image__wrap{background-color:#e6e6e6;width:100%;margin-left:-90px}
+.section__image__wrap img{min-width:100%;display:block}
+.section__title{position:absolute;z-index:100}
+.section__title h1{text-transform:uppercase;font-weight:700;text-decoration:underline;margin:0;font-size:30px;line-height:38px}
+.section__title--pos-left{left:-90px}
+.section__title--pos-left h1{-webkit-transform-origin:bottom;transform-origin:bottom;margin-left:25px}
 .section__title--pos-middle{left:50%}
 .section__title--pos-right{right:0}
-.section__column{width:50%;display:inline-block;min-height:1px}
+.section__column{position:relative;width:50%;display:inline-block;min-height:1px}
 .section__column:nth-child(even){padding-left:30px;text-align:left;padding-right:90px}
 .section__column:nth-child(odd){padding-right:30px;text-align:right;padding-left:90px}
 .hero{width:100%}
@@ -86,6 +91,9 @@ body.overflow-hidden{overflow:hidden}
 .hero-content{text-align:center}
 .hero-content .hero-image{margin-bottom:30px;margin-top:50px}
 .content-viewport{position:relative;z-index:10;min-height:100%;padding-bottom:180px}
+.section--real-impact{z-index:999;position:relative}
+.section--real-impact .section__title{top:240px;text-align:left}
+.section--real-impact .section__image{margin-top:170px}
 @media screen and (min-width:480px){.header__menu__item{font-size:14px}
 .section__content{font-size:14px}
 .section__content--intro{font-size:18px}

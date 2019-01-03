@@ -1,0 +1,13 @@
+.section {
+  @include m('real-impact') {
+    z-index: 999;
+    position: relative;
+    .section__title {
+      top: 240px;
+      text-align: left;
+    }
+    .section__image {
+      margin-top: 170px;
+    }
+  }
+}
