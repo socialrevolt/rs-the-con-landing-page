@@ -114,7 +114,7 @@ body.overflow-hidden{overflow:hidden}
 .section--crescent-court .section__title--pos-left{left:-90px}
 .section--crescent-court .section__title--pos-left h1{margin-left:-80px}
 .reservation-info{position:absolute;bottom:0;padding-right:30px}
-.reservation-info p{font-size:12px;line-height:24px;color:#666;font-weight:500}
+.reservation-info p{font-size:12px;line-height:24px;color:#666;font-weight:500;margin:0}
 .reservation-info p+p{margin-top:30px}
 .section--event-schedule .section__content{padding-top:0}
 .section--event-schedule .section__image{margin-top:110px}
