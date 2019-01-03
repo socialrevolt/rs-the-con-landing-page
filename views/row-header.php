@@ -14,7 +14,7 @@
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#about-the-conference">Event</a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-venue">Venue</a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-schedule">Schedule</a></li>
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#">Content</a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#content">Content</a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#parties">Parties</a></li>
         </ul>
       </nav>
