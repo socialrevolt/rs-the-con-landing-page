@@ -662,4 +662,44 @@ function unpin() {
 window.onload = function () {
   eleHeader = document.getElementById(idOfHeader);
   document.addEventListener('scroll', onScroll, false);
+}; //--------------------
+// ANIMATE ELEMENTS SCROLL VIEW
+//--------------------
+
+
+var animateHTML = function animateHTML() {
+  var elems;
+  var animation;
+  var duration;
+  var windowHeight;
+
+  function init() {
+    elems = document.querySelectorAll('.hidden');
+    windowHeight = window.innerHeight;
+    addEventHandlers();
+    checkPosition();
+  }
+
+  function addEventHandlers() {
+    window.addEventListener('scroll', checkPosition);
+    window.addEventListener('resize', init);
+  }
+
+  function checkPosition() {
+    for (var i = 0; i < elems.length; i++) {
+      var positionFromTop = elems[i].getBoundingClientRect().top;
+      animation = elems[i].dataset.animate;
+      elems[i].style["animation-duration"] = elems[i].dataset.duration + 's';
+
+      if (positionFromTop - windowHeight <= 0) {
+        elems[i].className = elems[i].className.replace('hidden', animation);
+      }
+    }
+  }
+
+  return {
+    init: init
+  };
 };
+
+animateHTML().init();

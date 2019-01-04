@@ -39,6 +39,11 @@ template{display:none}
 .hide{display:none}
 .clear:after,.party__wrap--layout-right .party__row--bottom:after,.party__wrap--layout-left .party__row--bottom:after{clear:both;content:'';display:block}
 .outer-container,.header__container,.footer__container{padding-left:20px;padding-right:20px}
+.hidden{opacity:0}
+.animate-in-left{-webkit-animation:slide-in-left;animation:slide-in-left}
+.animate-in-right{-webkit-animation:slide-in-right;animation:slide-in-right}
+.animate-in-bottom{-webkit-animation:slide-in-bottom;animation:slide-in-bottom}
+.animate-in-top{-webkit-animation:slide-in-bottom;animation:slide-in-bottom}
 *,*::after,*::before{-webkit-box-sizing:border-box;box-sizing:border-box}
 html{font-size:18px}
 body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:"Montserrat",sans-serif;color:#000;background-color:#fff;position:relative;overflow-x:hidden}
@@ -202,4 +207,20 @@ body.overflow-hidden{overflow:hidden}
 .section__title h1{font-size:40px}
 .section__quote p{font-size:20px}
 .banner__content{font-size:20px}
+}@-webkit-keyframes slide-in-left{from{opacity:0;-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
+}@keyframes slide-in-left{from{opacity:0;-webkit-transform:translateX(-100%);transform:translateX(-100%)}
+to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
+}@-webkit-keyframes slide-in-right{from{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}
+to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
+}@keyframes slide-in-right{from{opacity:0;-webkit-transform:translateX(100%);transform:translateX(100%)}
+to{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
+}@-webkit-keyframes slide-in-bottom{from{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}
+to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}
+}@keyframes slide-in-bottom{from{opacity:0;-webkit-transform:translateY(100%);transform:translateY(100%)}
+to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}
+}@-webkit-keyframes slide-in-top{from{opacity:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}
+to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}
+}@keyframes slide-in-top{from{opacity:0;-webkit-transform:translateY(-100%);transform:translateY(-100%)}
+to{opacity:1;-webkit-transform:translateY(0);transform:translateY(0)}
 }

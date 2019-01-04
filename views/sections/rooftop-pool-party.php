@@ -5,16 +5,16 @@
 
         <div class="party__wrap party__wrap--layout-right">
 
-          <div class="party__row party__row--top">
+          <div class="party__row party__row--top hidden" data-animate="animate-in-right" data-duration="1.2">
             <img class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/poolparty-1.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
           </div>
 
           <div class="party__row party__row--bottom flex flex--nowrap">
 
             <div class="row---bottom__left">
-              <div class="party__row__image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/pool-party-1.jpg"></div>
+              <div class="party__row__image lazyload hidden" data-animate="animate-in-left" data-duration="1.2" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/pool-party-1.jpg"></div>
               <div class="section__title section__title--pos-right orientation--270">
-                <h1>Rooftop Pool<br> Party</h1>
+                <h1 class="hidden" data-animate="animate-in-left" data-duration="1.2">Rooftop Pool<br> Party</h1>
               </div>
             </div>
 
