@@ -9,37 +9,56 @@
       .party__row--bottom {
         @extend .clear;
         .row---bottom__left {
+          order: 1;
           position: relative;
           width: 50%;
-          margin-left: $column-spacing-inner;
           min-height: 1px;
-          order: 1;
           .section__title {
             transform-origin: right bottom;
-            top: -100%;
-            right: -$column-spacing-inner;
+            top: -96px;
+            right: -15px;
           }
         }
         .row---bottom__right {
+          order: 2;
           position: relative;
           width: 50%;
           right: -$column-spacing-outer;
-          order: 2;
         }
         .section__content {
           float: right;
         }
-        .row__image--party {
-
+        .party__row__image {
+          left: -$column-spacing-outer;
         }
       }
     }
     @include m('layout-left') {
       .party__row--top {
         left: -$column-spacing-outer;
+        .section__title {
+          right: -$column-spacing-outer;
+          top: 45px;
+        }
       }
       .party__row--bottom {
-
+        @extend .clear;
+        .row---bottom__left {
+          position: relative;
+          width: calc(50% + #{$column-spacing-outer});
+          min-height: 1px;
+        }
+        .row---bottom__right {
+          position: relative;
+          width: 50%;
+          right: -$column-spacing-outer;
+        }
+        .section__content {
+          float: right;
+        }
+        .party__row__image {
+          right: 0;
+        }
       }
     }
   }
@@ -52,7 +71,6 @@
       height: 365px;
       position: absolute;
       bottom: 0;
-      left: -$column-spacing-outer;
       background-position: center;
       background-size: cover;
     }

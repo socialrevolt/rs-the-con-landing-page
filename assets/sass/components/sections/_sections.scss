@@ -136,6 +136,13 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
   //  Styling for PARTY Sections
   //---------------------------
   @include m('party') {
-
+    .section__wrap {
+      padding: 50px 0;
+    }
+    @include m('first') {
+      .section__wrap {
+        padding-top: 100px;
+      }
+    }
   }
 }

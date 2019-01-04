@@ -2,7 +2,7 @@
   <div class="hero__viewport">
     <div class="video-viewport">
       <video width="1920" height="1274" autoplay muted loop>
-        <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rsthecon-ltkparty.webm" type="video/webm">
+        <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rsthecon-ltkparty.webm" data-poster="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/ltk-1.jpg" preload="none" type="video/webm">
       </video>
     </div>
     <div class="content-viewport outer-container flex flex--v-middle flex--h-middle flex--nowrap">

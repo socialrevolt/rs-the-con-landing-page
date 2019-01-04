@@ -12,6 +12,8 @@
 //  8. Register Banner
 //  9. Rooftop Pool Party
 //  10. Courtyard Lunch
+//  11. Cocktail Party
+//  12. Atrium Lunch
 //--------------------------------
 
 // You can change a sections anchor id below
@@ -24,6 +26,11 @@ $id_6 = '';
 $id_7 = 'content';
 $id_8 = '';
 $id_9 = 'parties';
+$id_10 = '';
+$id_11 = '';
+$id_12 = '';
+$id_13 = '';
+$id_14 = '';
 
 get_header();
   while( have_posts() ): the_post();
@@ -47,5 +54,13 @@ get_header();
     include( locate_template( 'views/sections/rooftop-pool-party.php', false, false ) );
     // 10. Courtyard Lunch
     include( locate_template( 'views/sections/courtyard-lunch.php', false, false ) );
+    // 11. Cocktail Party
+    include( locate_template( 'views/sections/cocktail-party.php', false, false ) );
+    // 12. Atrium Lunch
+    include( locate_template( 'views/sections/atrium-lunch.php', false, false ) );
+    // 13. Liketoknow.it Party
+    include( locate_template( 'views/sections/liketoknow.php', false, false ) );
+    // 14. The Brands
+    include( locate_template( 'views/sections/brands.php', false, false ) );
   endwhile;
 get_footer();

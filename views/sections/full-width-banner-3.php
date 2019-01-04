@@ -1,6 +1,6 @@
 <section class="section" id="<?php echo $id_8; ?>">
   <div class="banner banner--quote  flex flex--v-middle flex--h-middle flex--nowrap">
-    <div class="banner__bg" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-3.jpg);">
+    <div class="banner__bg lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-3.jpg">
       <div class="inner-container">
         <img class="banner__bg--overlay banner__bg--overlay--3 lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-3-selfie.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="411" height="407" />
       </div>
