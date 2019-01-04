@@ -10,6 +10,7 @@
 //  6. Register Banner
 //  7. Expectations
 //  8. Register Banner
+//  9. Rooftop Pool Party
 //--------------------------------
 
 // You can change an sections id below
@@ -40,5 +41,7 @@ get_header();
     include( locate_template( 'views/sections/expectations.php', false, false ) );
     // 8. Full Width Banner Register
     include( locate_template( 'views/sections/full-width-banner-3.php', false, false ) );
+    // 9. Rooftop Pool Party
+    include( locate_template( 'views/sections/rooftop-pool-party.php', false, false ) );
   endwhile;
 get_footer();

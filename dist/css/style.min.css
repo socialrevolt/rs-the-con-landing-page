@@ -45,11 +45,12 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-f
 body.overflow-hidden{overflow:hidden}
 .outer-container{max-width:1064px;margin:0 auto}
 .inner-container{max-width:1064px;margin:0 auto}
-.inner-container--reduced{position:relative;padding:0 85px}
+.inner-container--reduced{position:relative;padding:0 90px}
 .btn{padding:0 40px;line-height:50px;display:inline-block;border-width:1px 1px 1px 1px;border-style:solid;text-decoration:none;text-transform:uppercase;font-weight:700}
 .btn--white{border-color:#fff;color:#fff}
 .btn--white:hover,.btn--white:focus{background-color:#fff;color:#000}
 .text-link{text-transform:uppercase;text-decoration:underline;font-weight:700;font-size:18px;line-height:24px}
+.text-link--small{font-size:18px;line-height:36px}
 .text-link--white{color:#fff}
 .text-link--black{color:#000}
 .flex{display:-webkit-box;display:-ms-flexbox;display:flex}
@@ -103,6 +104,7 @@ body.overflow-hidden{overflow:hidden}
 .video-viewport:before{position:absolute;top:0;left:0;width:100%;height:100%;display:block;z-index:5;content:'';background-color:rgba(0,0,0,0.5)}
 .video-viewport video{position:absolute;top:50%;-webkit-transform:translate(0,-50%);transform:translate(0,-50%);width:100%}
 .hero-content{text-align:center}
+.hero-content .year{display:block;color:#fff;font-size:17px;margin-top:5px}
 .hero-content .hero-image{margin-bottom:30px;margin-top:50px}
 .content-viewport{position:relative;z-index:10;min-height:100%;padding-bottom:180px}
 .section--real-impact{z-index:999;position:relative}
@@ -121,35 +123,51 @@ body.overflow-hidden{overflow:hidden}
 .banner{position:relative;width:100%;min-height:365px;background-color:#f2f2f2;margin-top:80px}
 .banner .outer-container{position:relative;z-index:10}
 .banner--quote{text-align:center}
+.banner--register{text-align:center}
+.banner__content{color:#fff;padding:45px 0;font-weight:700;font-size:18px;line-height:36px}
 .banner__bg{position:absolute;z-index:5;width:100%;height:100%;background-size:cover;background-position:bottom center}
+.banner__bg--overlay{position:absolute;bottom:0;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
+.banner__bg--overlay--2{margin-left:100px}
+.banner__bg--overlay--3{left:150px;-webkit-transform:none;transform:none}
+.banner__bg .inner-container{position:relative;height:100%}
 @media screen and (min-width:480px){.text-link{font-size:18px}
+.text-link--small{font-size:18px}
 .header__menu__item{font-size:14px}
 .section__content{font-size:14px}
 .section__content--intro{font-size:18px}
 .section__title h1{font-size:30px}
 .section__quote p{font-size:18px}
+.banner__content{font-size:18px}
 }@media screen and (min-width:700px){.text-link{font-size:23px;line-height:27px}
+.text-link--small{font-size:20px;line-height:40px}
 .header__menu__item{font-size:16px}
 .section__content{font-size:16px;line-height:32px}
 .section__content--intro{font-size:20px;line-height:40px}
 .section__title h1{font-size:36px;line-height:44px}
 .section__quote p{font-size:20px;line-height:40px}
+.banner__content{font-size:20px;line-height:40px}
 }@media screen and (min-width:900px){.text-link{font-size:23px}
+.text-link--small{font-size:20px}
 .header__menu__item{font-size:16px}
 .section__content{font-size:16px}
 .section__content--intro{font-size:20px}
 .section__title h1{font-size:36px}
 .section__quote p{font-size:20px}
+.banner__content{font-size:20px}
 }@media screen and (min-width:1024px){.text-link{font-size:23px;line-height:27px}
+.text-link--small{font-size:20px;line-height:40px}
 .header__menu__item{font-size:16px}
 .section__content{font-size:16px;line-height:32px}
 .section__content--intro{font-size:20px;line-height:40px}
 .section__title h1{font-size:40px;line-height:48px}
 .section__quote p{font-size:20px;line-height:40px}
+.banner__content{font-size:20px;line-height:40px}
 }@media screen and (min-width:1440px){.text-link{font-size:23px}
+.text-link--small{font-size:20px}
 .header__menu__item{font-size:16px}
 .section__content{font-size:16px}
 .section__content--intro{font-size:20px}
 .section__title h1{font-size:40px}
 .section__quote p{font-size:20px}
+.banner__content{font-size:20px}
 }

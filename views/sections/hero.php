@@ -9,6 +9,7 @@
       <div class="hero-content">
         <div class="hero-image">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/rewardStyle-logo.png" />
+          <span class="year">2019</span>
         </div>
         <a class="btn btn--white" href="#">Register Now</a>
       </div>

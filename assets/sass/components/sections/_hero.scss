@@ -32,6 +32,12 @@
 
 .hero-content {
   text-align: center;
+  .year {
+    display: block;
+    color: $base-white-color;
+    font-size: 17px;
+    margin-top: 5px;
+  }
   .hero-image {
     margin-bottom: 30px;
     margin-top: 50px;

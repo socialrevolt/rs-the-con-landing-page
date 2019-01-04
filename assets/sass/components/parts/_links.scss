@@ -23,6 +23,9 @@
   text-decoration: underline;
   font-weight: 700;
   @include font-size($link-font-sizes);
+  @include m('small') {
+    @include font-size($intro-font-sizes);
+  }
   @include m('white') {
     color: $base-white-color;
   }
