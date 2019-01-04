@@ -23,7 +23,7 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
   //---------------------------
   @include e('content') {
     @include font-size($p-font-sizes); // _shared-variables.scss
-    &:not(.section__content--intro) {
+    &:not(.section__content--intro):not(.section__content--party) {
       padding-top: 70px;
     }
     p {
@@ -34,6 +34,9 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
     }
     @include m('intro') {
       @include font-size($intro-font-sizes); // _shared-variables.scss
+    }
+    @include m('party') {
+      padding-top: 36px;
     }
   }
   //---------------------------
@@ -128,5 +131,11 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  //---------------------------
+  //  Styling for PARTY Sections
+  //---------------------------
+  @include m('party') {
+
   }
 }

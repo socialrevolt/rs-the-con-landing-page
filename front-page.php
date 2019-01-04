@@ -11,9 +11,10 @@
 //  7. Expectations
 //  8. Register Banner
 //  9. Rooftop Pool Party
+//  10. Courtyard Lunch
 //--------------------------------
 
-// You can change an sections id below
+// You can change a sections anchor id below
 $id_1 = 'the-conference';
 $id_2 = 'about-the-conference';
 $id_3 = '';
@@ -22,6 +23,7 @@ $id_5 = 'conference-schedule';
 $id_6 = '';
 $id_7 = 'content';
 $id_8 = '';
+$id_9 = 'parties';
 
 get_header();
   while( have_posts() ): the_post();
@@ -43,5 +45,7 @@ get_header();
     include( locate_template( 'views/sections/full-width-banner-3.php', false, false ) );
     // 9. Rooftop Pool Party
     include( locate_template( 'views/sections/rooftop-pool-party.php', false, false ) );
+    // 10. Courtyard Lunch
+    include( locate_template( 'views/sections/courtyard-lunch.php', false, false ) );
   endwhile;
 get_footer();
