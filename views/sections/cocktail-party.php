@@ -1,4 +1,4 @@
-<section class="section section--party" id="<?php echo $id_11; ?>">
+<section class="section section--party section--party--cocktail" id="<?php echo $id_11; ?>">
   <div class="outer-container">
     <div class="inner-container inner-container--reduced">
       <div class="section__wrap">

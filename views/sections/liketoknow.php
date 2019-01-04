@@ -1,4 +1,4 @@
-<section class="section section--party" id="<?php echo $id_13; ?>">
+<section class="section section--party section--party--liketoknow" id="<?php echo $id_13; ?>">
   <div class="outer-container">
     <div class="inner-container inner-container--reduced">
       <div class="section__wrap">

@@ -36,7 +36,7 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
       @include font-size($intro-font-sizes); // _shared-variables.scss
     }
     @include m('party') {
-      padding-top: 36px;
+      padding-top: 30px;
     }
   }
   //---------------------------

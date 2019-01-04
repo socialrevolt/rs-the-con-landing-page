@@ -76,6 +76,7 @@
     }
     @include m('top') {
       z-index: 5;
+      max-height: 365px;
       img {
         width: 100%;
         display: block;
