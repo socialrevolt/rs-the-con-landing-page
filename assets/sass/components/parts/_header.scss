@@ -6,11 +6,24 @@
   top: 0;
   z-index: 9999;
   transition: top 0.2s ease-in-out;
-  &.header-pin {
-    
+  &.header-pin:not(.show-top) {
+    .header__top {
+      display: none;
+    }
   }
   &.header-unpin {
     top: -88px;
+    &:not(.show-top) {
+      .header__top {
+        display: none;
+      }
+      top: -34px;
+    }
+  }
+  .header__top {
+    &.show-top {
+
+    }
   }
   @include e('top') {
     width: 100%;
@@ -39,10 +52,19 @@
       padding: 0 10px;
       width: 140px;
       a {
+        position: relative;
         text-decoration: none;
         color: white;
         padding: 0 15px;
         display: block;
+        &:before {
+          position: absolute;
+          display: inline-block;
+
+        }
+        &:hover {
+
+        }
       }
       @include m('active') {
         color: white;

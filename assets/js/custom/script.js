@@ -105,6 +105,14 @@ jQuery(document).ready(function($) {
 	}
 	setInterval(anchorWatch,200);
 
+	$(document).scroll(function() {
+	   if($(window).scrollTop() === 0) {
+	     $(".header").addClass("show-top");
+	   } else {
+			 $(".header").removeClass("show-top");
+		 }
+	});
+
 });
 
 //--------------------

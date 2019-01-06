@@ -1,4 +1,4 @@
-<header id="header" class="header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+<header id="header" class="header show-top" role="banner" itemscope itemtype="http://schema.org/WPHeader">
   <div class="header__top">
     <div class="outer-container">
       <meta itemprop="name" content="rewardStyle 2019 conference">

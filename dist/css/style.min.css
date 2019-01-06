@@ -52,7 +52,7 @@ body.overflow-hidden{overflow:hidden}
 .inner-container{max-width:1064px;margin:0 auto}
 .inner-container--reduced{position:relative;padding:0 90px}
 .site-wrapper{padding-top:88px}
-.btn{padding:0 40px;line-height:50px;display:inline-block;border-width:1px 1px 1px 1px;border-style:solid;text-decoration:none;text-transform:uppercase;font-weight:700}
+.btn{padding:0 40px;line-height:50px;display:inline-block;border-width:1px 1px 1px 1px;border-style:solid;text-decoration:none;text-transform:uppercase;font-weight:700;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
 .btn--white{border-color:#fff;color:#fff}
 .btn--white:hover,.btn--white:focus{background-color:#fff;color:#000}
 .text-link{text-transform:uppercase;text-decoration:underline;font-weight:700;font-size:18px;line-height:24px}
@@ -64,14 +64,18 @@ body.overflow-hidden{overflow:hidden}
 .flex--v-middle{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .flex--h-middle{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .header{position:fixed;width:100%;left:0;right:0;top:0;z-index:9999;-webkit-transition:top .2s ease-in-out;transition:top .2s ease-in-out}
+.header.header-pin:not(.show-top) .header__top{display:none}
 .header.header-unpin{top:-88px}
+.header.header-unpin:not(.show-top){top:-34px}
+.header.header-unpin:not(.show-top) .header__top{display:none}
 .header__top{width:100%;text-align:center;padding:10px 0;background-color:#fff}
 .header__bottom{background-color:#000}
 .header__container{max-width:1064px;margin:0 auto}
 .header__navigation{text-align:center}
 .header__menu{list-style:none;margin:0;padding:0}
 .header__menu__item{display:inline-block;font-size:14px;line-height:34px;text-transform:uppercase;padding:0 10px;width:140px}
-.header__menu__item a{text-decoration:none;color:white;padding:0 15px;display:block}
+.header__menu__item a{position:relative;text-decoration:none;color:white;padding:0 15px;display:block}
+.header__menu__item a:before{position:absolute;display:inline-block}
 .header__menu__item--active{color:white}
 .footer{padding:35px 0;text-align:center;font-size:14px;line-height:25px}
 .footer__container{max-width:1064px;margin:0 auto}
