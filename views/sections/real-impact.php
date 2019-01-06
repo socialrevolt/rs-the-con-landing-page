@@ -1,7 +1,7 @@
 <section class="section section--real-impact" id="<?php echo $id_2; ?>">
   <div class="outer-container">
     <div class="inner-container inner-container--reduced">
-      <div class="section__wrap section__wrap--indent section__wrap--with-bg flex flex--nowrap">
+      <div class="section__wrap section__wrap--indent section__wrap--with-bg flex flex--wrap">
 
         <div class="section__column">
           <div class="section__title section__title--pos-left">

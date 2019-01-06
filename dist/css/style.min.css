@@ -60,7 +60,7 @@ body.overflow-hidden{overflow:hidden}
 .text-link--white{color:#fff}
 .text-link--black{color:#000}
 .flex{display:-webkit-box;display:-ms-flexbox;display:flex}
-.flex--nowrap{-ms-flex-wrap:nowrap;flex-wrap:nowrap}
+.flex--wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}
 .flex--v-middle{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .flex--h-middle{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .header{position:fixed;width:100%;left:0;right:0;top:0;z-index:9999;-webkit-transition:top .2s ease-in-out;transition:top .2s ease-in-out}

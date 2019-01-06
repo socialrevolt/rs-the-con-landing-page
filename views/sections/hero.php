@@ -5,7 +5,7 @@
         <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rsthecon-ltkparty.webm" data-poster="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/ltk-1.jpg" preload="none" type="video/webm">
       </video>
     </div>
-    <div class="content-viewport outer-container flex flex--v-middle flex--h-middle flex--nowrap">
+    <div class="content-viewport outer-container flex flex--v-middle flex--h-middle flex--wrap">
       <div class="hero-content">
         <div class="hero-image">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/rewardStyle-logo.png" />

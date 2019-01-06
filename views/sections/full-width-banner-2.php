@@ -1,5 +1,5 @@
 <section class="section" id="<?php echo $id_6; ?>">
-  <div class="banner banner--register  flex flex--v-middle flex--h-middle flex--nowrap">
+  <div class="banner banner--register  flex flex--v-middle flex--h-middle flex--wrap">
     <div class="banner__bg lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-2.jpg">
       <div class="inner-container">
         <img class="banner__bg--overlay banner__bg--overlay--2 lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-2-selfie.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="854" height="529" />

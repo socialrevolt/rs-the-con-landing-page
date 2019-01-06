@@ -1,12 +1,12 @@
 <section class="section section--padding section--event-schedule" id="<?php echo $id_5; ?>">
   <div class="outer-container">
     <div class="inner-container inner-container--reduced">
-      <div class="section__wrap section__wrap--with-bg flex flex--nowrap">
+      <div class="section__wrap section__wrap--with-bg flex flex--wrap">
         <div class="section__column">
           <div class="tab-navigation">
-            <a class="tab-link active" href="#thursday">Thursday</a>
-            <a class="tab-link" href="#friday">Friday</a>
-            <a class="tab-link" href="#saturday">Saturday</a>
+            <a class="tab-link active hidden" data-animate="animate-in-left" data-duration="1.2" href="#thursday" >Thursday</a>
+            <a class="tab-link hidden" data-animate="animate-in-left" data-duration="1.6" href="#friday">Friday</a>
+            <a class="tab-link hidden" data-animate="animate-in-left" data-duration="2" href="#saturday">Saturday</a>
           </div>
           <div class="section__image">
             <div class="section__image__wrap loading">
@@ -16,7 +16,7 @@
         </div>
 
         <div class="section__column">
-          <div class="section__content">
+          <div class="section__content hidden" data-animate="animate-in-bottom" data-duration="2.2">
             <div class="tabs">
               <div id="thursday" class="active">
                 <p><strong>9-10 AM</strong><br>Breakfast</p>

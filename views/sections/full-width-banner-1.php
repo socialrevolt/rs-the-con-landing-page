@@ -1,5 +1,5 @@
 <section class="section section--padding" id="<?php echo $id_3; ?>">
-  <div class="banner banner--quote  flex flex--v-middle flex--h-middle flex--nowrap">
+  <div class="banner banner--quote  flex flex--v-middle flex--h-middle flex--wrap">
     <div class="banner__bg lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-1.jpg"></div>
     <div class="outer-container">
       <div class="inner-container inner-container--reduced">

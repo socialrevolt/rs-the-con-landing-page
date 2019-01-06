@@ -2,7 +2,7 @@
   <div class="outer-container">
     <div class="section__cover-image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/crescent.jpg"></div>
     <div class="inner-container inner-container--reduced">
-      <div class="section__wrap section__wrap--with-bg flex flex--nowrap">
+      <div class="section__wrap section__wrap--with-bg flex flex--wrap">
 
         <div class="section__column section--crescent-court__column">
           <div class="section__title section__title--pos-left hidden" data-animate="animate-in-left" data-duration="1.2">

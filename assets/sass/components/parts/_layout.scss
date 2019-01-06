@@ -1,7 +1,7 @@
 .flex {
   display: flex;
-  @include m('nowrap') {
-    flex-wrap: nowrap;
+  @include m('wrap') {
+    flex-wrap: wrap;
   }
   @include m('v-middle') {
     align-items: center;
