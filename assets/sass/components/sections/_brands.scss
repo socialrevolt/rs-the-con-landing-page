@@ -22,10 +22,17 @@
     @include e('item') {
       width: 33.33%;
       padding: 35px;
+      @media (max-width: 575px) {
+        width: 100%;
+        padding: 15px;
+      }
       display: inline-block;
       text-align: center;
       img {
         display: block;
+        @media (max-width: 575px) {
+          display: inline-block;
+        }
         max-width: 100%;
         height: auto;
       }

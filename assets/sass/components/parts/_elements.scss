@@ -8,6 +8,9 @@
 }
 
 .tab-navigation {
+  @media (max-width: 1023px) {
+    margin-bottom: 20px;
+  }
   .tab-link {
     display: block;
     text-transform: uppercase;

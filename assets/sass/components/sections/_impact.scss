@@ -5,9 +5,15 @@
     .section__title {
       top: 220px;
       text-align: left;
+      @media (max-width: 575px) {
+        text-align: center;
+      }
     }
     .section__image {
       margin-top: 170px;
+      @media (max-width: 1023px) {
+        margin-top: 30px;
+      }
     }
   }
 }

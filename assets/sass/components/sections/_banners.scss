@@ -4,6 +4,9 @@
   min-height: 365px;
   background-color: $base-off-white-color;
   margin-top: 80px;
+  @media (max-width: 575px) {
+    margin-top: 20px;
+  }
   z-index: 1000;
   .outer-container {
     position: relative;
@@ -11,7 +14,6 @@
   }
   @include m('quote') {
     text-align: center;
-
   }
   @include m('register') {
     text-align: center;

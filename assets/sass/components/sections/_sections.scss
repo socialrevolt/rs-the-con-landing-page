@@ -10,6 +10,9 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
   @include e('wrap') {
     width: 100%;
     padding: 80px 0;
+    @media (max-width: 1023px) {
+      padding: 50px 0;
+    }
     @include m('indent') {
       min-height: 180px;
       margin-top: -180px;
@@ -25,6 +28,9 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
     @include font-size($p-font-sizes); // _shared-variables.scss
     &:not(.section__content--intro):not(.section__content--party) {
       padding-top: 70px;
+      @media (max-width: 1023px) {
+        padding-top: 30px;
+      }
     }
     p {
       margin: 0;
@@ -45,14 +51,18 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
   @include e('image') {
     position: relative;
     //margin-left: -$column-spacing-outer;
-    width: calc(100% + #{$column-spacing-image});
-    padding-right: $column-spacing-inner;
-    min-height: 1px;
-    margin-left: -#{$column-spacing-outer};
+    @media (min-width: 801px) {
+      width: calc(100% + #{$column-spacing-image});
+      padding-right: $column-spacing-inner;
+      min-height: 1px;
+      margin-left: -#{$column-spacing-outer};
+    }
     @include e('wrap') {
       background-color: $base-grey-color;
       width: 100%;
-      margin-left: -#{$column-spacing-outer};
+      @media (min-width: 1024px) {
+        margin-left: -#{$column-spacing-outer};
+      }
       img {
         min-width: 100%;
         display: block;
@@ -63,7 +73,13 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
   //  Styling for Section TITLES
   //---------------------------
   @include e('title') {
-    position: absolute;
+    @media (min-width: 1024px) {
+      position: absolute;
+    }
+    @media (max-width: 1023px) {
+      transform: none;
+      margin-bottom: 30px;
+    }
     z-index: 100;
     h1 {
       text-transform: uppercase;
@@ -71,42 +87,62 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
       text-decoration: underline;
       margin: 0;
       @include font-size($h1-font-sizes);
-    }
-    @include m('rotate') {
-
-    }
-    @include m('pos-left') {
-      left: -$column-spacing-outer;
-      h1 {
-        transform-origin: bottom;
-        margin-left: 25px;
+      @media (max-width: 1023px) {
+        transform: none;
       }
     }
-    @include m('pos-middle') {
-      left: 50%;
-    }
-    @include m('pos-right') {
-      right: 0;
+    @media (min-width: 1024px) {
+      @include m('pos-left') {
+        left: -$column-spacing-outer;
+        h1 {
+          transform-origin: bottom;
+          margin-left: 25px;
+        }
+      }
+      @include m('pos-middle') {
+        left: 50%;
+      }
+      @include m('pos-right') {
+        right: 0;
+      }
     }
   }
   @include e('column') {
     position: relative;
-    width: 50%;
     display: inline-block;
     min-height: 1px;
-    &:nth-child(even) {
-      padding-left: $column-spacing-inner;
-      text-align: left;
-      padding-right: $column-spacing-outer;
+    @media (min-width: 1024px) {
+      width: 50%;
+      &:nth-child(even) {
+        padding-left: $column-spacing-inner;
+        text-align: left;
+        padding-right: $column-spacing-outer;
+      }
+      &:nth-child(odd) {
+        padding-right: $column-spacing-inner;
+        text-align: right;
+        padding-left: $column-spacing-outer;
+      }
     }
-    &:nth-child(odd) {
-      padding-right: $column-spacing-inner;
-      text-align: right;
-      padding-left: $column-spacing-outer;
+    @media (max-width: 1023px) {
+      width: 100%;
+      padding: 0 60px;
+    }
+    @media (max-width: 575px) {
+      padding: 0 30px;
+      text-align: center;
+    }
+    &.section--crescent-court__column {
+      @media (max-width: 1023px) {
+
+      }
     }
   }
   @include e('quote') {
     padding: 0 60px;
+    @media (max-width: 575px) {
+      padding: 0 30px;
+    }
     margin: 0;
     p, span {
       color: $base-white-color;
@@ -138,6 +174,9 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
   @include m('party') {
     .section__wrap {
       padding: 50px 0;
+      @media (max-width: 1023px) {
+        padding: 30px 0;
+      }
     }
     @include m('first') {
       .section__wrap {

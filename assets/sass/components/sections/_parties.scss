@@ -2,63 +2,136 @@
   @include e('wrap') {
     position: relative;
     width: 100%;
+    @media (max-width: 800px) {
+      text-align: center;
+    }
     @include m('layout-right') {
       .party__row--top {
-        right: -$column-spacing-outer;
+        @media (min-width: 1024px) {
+          right: -$column-spacing-outer;
+        }
+        @media (max-width: 1023px) {
+          width: calc(100% + 140px);
+          margin-left: -70px;
+        }
       }
       .party__row--bottom {
         @extend .clear;
+        @media (max-width: 800px) {
+          padding: 0 50px;
+        }
         .row---bottom__left {
           order: 1;
           position: relative;
-          width: 50%;
+          @media (min-width: 1024px) {
+            width: 50%;
+          }
+          @media (max-width: 800px) {
+            width: 100%;
+          }
           min-height: 1px;
           .section__title {
-            transform-origin: right bottom;
-            top: -96px;
-            right: -15px;
+            @media (min-width: 1024px) {
+              transform-origin: right bottom;
+              top: -96px;
+              right: -15px;
+            }
+            @media (max-width: 1023px) {
+              margin-top: 50px;
+              margin-bottom: 0px;
+            }
           }
         }
         .row---bottom__right {
           order: 2;
           position: relative;
-          width: 50%;
-          right: -$column-spacing-outer;
+          @media (min-width: 1024px) {
+            width: 50%;
+            right: -$column-spacing-outer;
+          }
         }
-        .section__content {
-          float: right;
+        @media (min-width: 1024px) {
+          .section__content {
+            float: right;
+          }
         }
         .party__row__image {
-          left: -$column-spacing-outer;
+          @media (min-width: 1024px) {
+            left: -$column-spacing-outer;
+          }
         }
       }
     }
     @include m('layout-left') {
-      .party__row--top {
-        left: -$column-spacing-outer;
-        .section__title {
-          right: -$column-spacing-outer;
-          top: 45px;
+      @media (min-width: 1024px) {
+        .party__row--top {
+          left: -$column-spacing-outer;
+          .section__title {
+            right: -$column-spacing-outer;
+            top: 45px;
+          }
+        }
+      }
+      @media (max-width: 1023px) {
+        .party__row--top {
+          img {
+            width: calc(100% + 140px);
+            margin-right: -70px;
+            margin-left: -70px;
+          }
+        }
+      }
+      @media (max-width: 1023px) {
+        .party__row--top {
+          display: flex;
+          flex-wrap: wrap;
+          > img {order: 1;}
+          .section__title {
+            order: 2;
+          }
+          .section__title {
+            margin-top: 50px;
+            margin-bottom: 0px;
+          }
+        }
+      }
+      @media (max-width: 800px) {
+        .party__row--top {
+          .section__title {
+            width: 100%;
+          }
         }
       }
       .party__row--bottom {
         @extend .clear;
         flex-wrap: nowrap;
+        @media (max-width: 800px) {
+          padding: 0 50px;
+        }
         .row---bottom__left {
-          position: relative;
-          width: calc(50% + #{$column-spacing-outer});
+          @media (min-width: 1024px) {
+            position: relative;
+            width: calc(50% + #{$column-spacing-outer});
+          }
+          @media (max-width: 800px) {
+            width: 100%;
+          }
           min-height: 1px;
         }
         .row---bottom__right {
           position: relative;
-          width: 50%;
-          right: -$column-spacing-outer;
+          @media (min-width: 1024px) {
+            width: 50%;
+            right: -$column-spacing-outer;
+          }
         }
-        .section__content {
-          float: right;
-        }
-        .party__row__image {
-          right: 0;
+        @media (min-width: 1024px) {
+          .section__content {
+            float: right;
+          }
+          .party__row__image {
+            right: 0;
+          }
         }
       }
     }
@@ -74,10 +147,15 @@
       bottom: 0;
       background-position: center;
       background-size: cover;
+      @media (max-width: 1023px) {
+        display: none;
+      }
     }
     @include m('top') {
       z-index: 5;
-      max-height: 365px;
+      @media (min-width: 1024px) {
+        max-height: 365px;
+      }
       img {
         width: 100%;
         display: block;

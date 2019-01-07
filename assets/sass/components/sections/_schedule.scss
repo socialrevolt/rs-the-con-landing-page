@@ -5,6 +5,12 @@
     }
     .section__image {
       margin-top: 110px;
+      @media (max-width: 1023px) {
+        margin-top: 50px;
+        max-height: 250px;
+        overflow: hidden;
+        display: none;
+      }
     }
   }
 }

@@ -7,13 +7,15 @@
       margin-top: -100px;
       z-index: 10;
     }
-    .section__title {
-      top: -100px;
-      text-align: left;
-      @include m('pos-left') {
-        left: -$column-spacing-outer;
-        h1 {
-          margin-left: -80px;
+    @media (min-width: 1024px) {
+      .section__title {
+        top: -100px;
+        text-align: left;
+        @include m('pos-left') {
+          left: -$column-spacing-outer;
+          h1 {
+            margin-left: -80px;
+          }
         }
       }
     }
@@ -21,9 +23,18 @@
 }
 
 .reservation-info {
-  position: absolute;
-  bottom: 0;
-  padding-right: 30px;
+  @media (min-width: 1024px) {
+    position: absolute;
+    bottom: 0;
+    padding-right: 30px;
+  }
+  @media (max-width: 1023px) {
+    margin-top: 30px;
+    background-color: #ececec;
+    padding: 20px;
+    width: calc(100% + 40px);
+    margin-left: -20px;
+  }
   p {
     font-size: 12px;
     line-height: 24px;
@@ -32,6 +43,9 @@
     margin: 0;
     + p {
       margin-top: 30px;
+      @media (max-width: 1023px) {
+        margin-top: 10px;
+      }
     }
   }
 }
