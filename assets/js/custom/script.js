@@ -113,6 +113,33 @@ jQuery(document).ready(function($) {
 		 }
 	});
 
+	//--------------------
+	//  VARIABLES
+	//--------------------
+	var link = $(".header__bottom__toggler"),
+			body = $("body"),
+			close = $(".header_navigation_close"),
+			menu = $(".header__menu");
+
+
+	//--------------------
+	//  MENU TOGGLE
+	//--------------------
+	link.on('click touch', function(e) {
+		e.stopPropagation();
+		$(this).toggleClass("is-active");
+		body.toggleClass("is-active");
+		menu.toggleClass('is-active');
+	});
+
+	close.on('click touch', function(e) {
+		e.stopPropagation();
+		menu.removeClass("is-active");
+		link.removeClass("is-active");
+	});
+
+
+
 });
 
 //--------------------

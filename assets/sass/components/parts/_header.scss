@@ -7,24 +7,36 @@
   z-index: 9999;
   transition: top 0.2s ease-in-out;
   overflow: hidden;
-  &.header-pin:not(.show-top) {
-    .header__top {
-      overflow: hidden;
-      position: relative;
-      margin-top: -54px;
+  @media (max-width: 1024px) {
+    background-color: white;
+  }
+  @media (min-width: 1025px) {
+    &.header-pin:not(.show-top) {
+      .header__top {
+        overflow: hidden;
+        position: relative;
+        margin-top: -54px;
+      }
     }
   }
   &.header-unpin {
     &:not(.show-top) {
-      .header__top {
-      }
       top: -88px;
+      @media (min-width: 1025px) {
+        top: -54px;
+      }
     }
   }
   .header__top {
     transition: all 0.1s ease-in-out;
     &.show-top {
 
+    }
+  }
+  @media (max-width: 1024px) {
+    .header__top {
+      width: auto;
+      float: left;
     }
   }
   @include e('top') {
@@ -35,6 +47,52 @@
   }
   @include e('bottom') {
     background-color: $base-dark-color;
+    @media (max-width: 1024px) {
+      float: right;
+      background: none;
+    }
+    @include e('toggler') {
+      display: none;
+      @media (max-width: 1024px) {
+        display: inline-block;
+        border: 0;
+        outline: 0;
+        background: none;
+        cursor: pointer;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+        &.is-active {
+          transition-delay: 0s;
+          transition-timing-function: ease-out;
+          background-color: transparent!important;
+          .toggler-icon {
+            &:before {
+              top: -80px;
+              left: -80px;
+              transition: left .125s ease-out,top .05s linear .125s,transform .125s cubic-bezier(.075,.82,.165,1) .175s;
+              transform: translate3d(80px,80px,0) rotate(45deg);
+            }
+            &:after {
+              top: -80px;
+              background-color:  $base-dark-color;
+              right: -80px;
+              transition: right .125s ease-out,top .05s linear .125s,transform .125s cubic-bezier(.075,.82,.165,1) .175s;
+              transform: translate3d(-80px,80px,0) rotate(-45deg);
+            }
+          }
+        }
+        .toggler-icon {
+          right: 20px;
+        }
+        span {
+          display: inline-block;
+          vertical-align: middle;
+          line-height: 54px;
+          margin-right: 65px;
+        }
+      }
+    }
   }
   @include e('container') {
     @include site-container();
@@ -46,6 +104,26 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    @media (max-width: 1024px) {
+      position: fixed;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      visibility: hidden;
+      opacity: 1;
+      left: 0;
+      top: 0;
+      background-color: $base-dark-color;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      align-content: center;
+      &.is-active {
+        visibility: visible;
+        opacity: 1;
+        z-index: 9999;
+      }
+    }
     @include e('item') {
       display: inline-block;
       @include font-size($menu-font-sizes); // _shared-variables.scss
@@ -53,6 +131,13 @@
       text-transform: uppercase;
       padding: 0 10px;
       width: 140px;
+      @media (max-width: 1024px) {
+        width: 100%;
+        display: block;
+        + .header__menu__item {
+          margin-top: 20px;
+        }
+      }
       a {
         position: relative;
         text-decoration: none;
@@ -96,5 +181,74 @@
         color: white;
       }
     }
+  }
+}
+
+.header_navigation_close {
+    position: absolute;
+    background: none;
+    outline: 0;
+    border: 0;
+    right: 50px;
+    top: 30px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    i {
+      &:before,
+      &:after {
+        position: absolute;
+        left: 15px;
+        content: ' ';
+        height: 33px;
+        width: 2px;
+        background-color: #fff;
+      }
+      &:before {transform: rotate(45deg);}
+      &:after {transform: rotate(-45deg);}
+    }
+  }
+
+.toggler-icon {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  transition-timing-function: ease;
+  transition-duration: .15s;
+  transition-property: transform;
+  border-radius: 4px;
+  background-color: $base-dark-color;
+  top: 50%;
+  display: block;
+  margin-top: -2px;
+  &:before,
+  &:after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    transition-timing-function: ease;
+    transition-duration: .15s;
+    transition-property: transform;
+    border-radius: 4px;
+    background-color: $base-dark-color;
+  }
+  &:before {
+    left: 0;
+    transition: transform .125s cubic-bezier(.6,.04,.98,.335),top .05s linear .125s,left .125s ease-in .175s;
+  }
+  &::before {
+    top: -10px;
+  }
+  &::before {
+    display: block;
+    content: "";
+  }
+  &:after {
+    top: 10px;
+    right: 0;
+    transition: transform .125s cubic-bezier(.6,.04,.98,.335),top .05s linear .125s,right .125s ease-in .175s;
+    bottom: -10px;
   }
 }

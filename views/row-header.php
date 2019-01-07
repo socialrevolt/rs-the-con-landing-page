@@ -16,8 +16,14 @@
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-schedule"><span>Schedule</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#content"><span>Content</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#parties"><span>Parties</span></a></li>
+
+          <button class="header_navigation_close"><i class="close-icon"></i></button>
         </ul>
       </nav>
     </div>
+    <button class="header__bottom__toggler">
+      <span>Menu</span>
+      <i class="toggler-icon"></i>
+    </button>
   </div>
 </header>
