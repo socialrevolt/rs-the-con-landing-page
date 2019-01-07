@@ -8,19 +8,20 @@
   transition: top 0.2s ease-in-out;
   &.header-pin:not(.show-top) {
     .header__top {
-      display: none;
+      overflow: hidden;
+      position: relative;
+      margin-top: -54px;
     }
   }
   &.header-unpin {
-    top: -88px;
     &:not(.show-top) {
       .header__top {
-        display: none;
       }
-      top: -34px;
+      top: -88px;
     }
   }
   .header__top {
+    transition: all 0.1s ease-in-out;
     &.show-top {
 
     }
@@ -57,13 +58,37 @@
         color: white;
         padding: 0 15px;
         display: block;
-        &:before {
-          position: absolute;
+        span {
+          display: block;
+          transition: all 0.1s ease-in-out;
+          transform: scale(1);
+        }
+        &:before,
+        &:after {
           display: inline-block;
-
+          position: absolute;
+          top: 50%;
+          margin-top: -17px;
+          opacity: 0;
+          transition: transform 0.3s, opacity 0.2s;
+        }
+        &:before {
+          content: '[';
+          left: 0;
+          transform: translateX(10px);
+        }
+        &:after {
+          right: 0;
+          content: ']';
+          transform: translateX(-10px);
         }
         &:hover {
-
+          span {transform: scale(0.9);}
+          &:before,
+          &:after {
+            opacity: 1;
+            transform: translateX(0px);
+          }
         }
       }
       @include m('active') {

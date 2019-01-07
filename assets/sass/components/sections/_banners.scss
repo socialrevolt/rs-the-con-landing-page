@@ -4,12 +4,14 @@
   min-height: 365px;
   background-color: $base-off-white-color;
   margin-top: 80px;
+  z-index: 1000;
   .outer-container {
     position: relative;
     z-index: 10;
   }
   @include m('quote') {
     text-align: center;
+
   }
   @include m('register') {
     text-align: center;
@@ -32,6 +34,11 @@
       bottom: 0;
       left: 50%;
       transform: translate(-50%);
+      @include m('1') {
+        margin-left: 0px;
+        left: 0;
+        transform: translate(0);
+      }
       @include m('2') {
         margin-left: 100px;
       }

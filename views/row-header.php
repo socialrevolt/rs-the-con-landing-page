@@ -11,11 +11,11 @@
     <div class="outer-container">
       <nav class="header__navigation">
         <ul class="header__menu">
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#about-the-conference">Event</a></li>
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-venue">Venue</a></li>
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-schedule">Schedule</a></li>
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#content">Content</a></li>
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#parties">Parties</a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#about-the-conference"><span>Event</span></a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-venue"><span>Venue</span></a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-schedule"><span>Schedule</span></a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#content"><span>Content</span></a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#parties"><span>Parties</span></a></li>
         </ul>
       </nav>
     </div>

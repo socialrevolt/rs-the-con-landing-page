@@ -43,6 +43,7 @@
       }
       .party__row--bottom {
         @extend .clear;
+        flex-wrap: nowrap;
         .row---bottom__left {
           position: relative;
           width: calc(50% + #{$column-spacing-outer});

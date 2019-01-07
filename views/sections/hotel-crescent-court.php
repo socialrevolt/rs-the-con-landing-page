@@ -1,4 +1,4 @@
-<section class="section section--padding section--crescent-court" id="<?php echo $id_10; ?>">
+<section class="section section--padding section--crescent-court" id="<?php echo $id_4; ?>">
   <div class="outer-container">
     <div class="section__cover-image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/crescent.jpg"></div>
     <div class="inner-container inner-container--reduced">
