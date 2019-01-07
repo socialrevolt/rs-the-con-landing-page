@@ -1,19 +1,19 @@
 ## Requirements
 
-NodeJS - [Download](https://nodejs.org/en/)\s\s
+NodeJS - [Download](https://nodejs.org/en/)  
 `gulp: $npm install gulp-cli -g`
 
 ## Getting Started
 
 Open your OS Command Line Tool
 
-`$cd /path/to/theme`\s\s
-`$npm install`\s\s
+`$cd /path/to/theme`  
+`$npm install`  
 `$gulp`
 
 ## Finding Things
 
-All development files e.g sass, js etc can be found in /assets folder.\s\s
+All development files e.g sass, js etc can be found in /assets folder.  
 The gulp task once run will compile these files to the /dist folder. All JS is built into script.min.js with vendor js files being ordered first.
 
 ### Template Parts
