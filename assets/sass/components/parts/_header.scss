@@ -6,6 +6,7 @@
   top: 0;
   z-index: 9999;
   transition: top 0.2s ease-in-out;
+  overflow: hidden;
   &.header-pin:not(.show-top) {
     .header__top {
       overflow: hidden;

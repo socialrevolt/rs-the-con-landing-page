@@ -4,8 +4,10 @@ $column-spacing-total: $column-spacing-inner + $column-spacing-outer;
 $column-spacing-image: $column-spacing-total + $column-spacing-inner;
 
 .section {
-  @media (max-width: 575px) {
-
+  @media (max-width:1024px) {
+    &:not(.section--crescent-court):not(.section--real-impact) {
+      overflow-x: hidden;
+    }
   }
   @include m('padding') {
     padding: 50px 0;
