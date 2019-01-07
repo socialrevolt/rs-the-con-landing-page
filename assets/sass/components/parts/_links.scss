@@ -23,14 +23,23 @@
   text-transform: uppercase;
   text-decoration: underline;
   font-weight: 700;
+  transition: all 0.1s ease-in-out;
   @include font-size($link-font-sizes);
   @include m('small') {
     @include font-size($intro-font-sizes);
   }
   @include m('white') {
     color: $base-white-color;
+    &:hover {
+      background: $base-white-color;
+      color: $base-dark-color;
+    }
   }
   @include m('black') {
     color: $base-dark-color;
+    &:hover {
+      background: $base-dark-color;
+      color: $base-white-color;
+    }
   }
 }

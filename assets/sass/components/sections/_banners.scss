@@ -40,9 +40,14 @@
         margin-left: 0px;
         left: 0;
         transform: translate(0);
+        @media (max-width: 575px) {
+          max-height: 397px;
+          max-width: 278px;
+        }
       }
       @include m('2') {
         margin-left: 100px;
+        max-width: none;
       }
       @include m('3') {
         left: 150px;

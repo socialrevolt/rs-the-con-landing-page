@@ -5,7 +5,7 @@
 
         <div class="party__wrap party__wrap--layout-right">
 
-          <div class="party__row party__row--top hidden" data-animate="animate-in-right" data-duration="1.5">
+          <div class="party__row party__row--top loading hidden" data-animate="animate-in-right" data-duration="1.5">
             <img class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/cocktail-2.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
           </div>
 

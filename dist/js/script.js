@@ -566,8 +566,8 @@ jQuery(document).ready(function ($) {
 
   function showTab() {
     if ($currTab.length > 0) {
-      $tabs.removeClass('active');
-      $currTab.addClass('active');
+      $tabs.fadeOut();
+      $currTab.fadeIn();
     }
   }
 

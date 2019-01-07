@@ -1,5 +1,8 @@
 .hidden {
   opacity: 0;
+  @media (max-width: 1024px) {
+    opacity: 1;
+  }
 }
 
 @keyframes slide-in-left {
@@ -22,7 +25,15 @@
     to {opacity: 1; transform: translateY(0);}
 }
 
-.animate-in-left {animation: slide-in-left;}
-.animate-in-right {animation: slide-in-right;}
-.animate-in-bottom {animation: slide-in-bottom;}
-.animate-in-top {animation: slide-in-bottom;}
+@media (min-width: 1025px) {
+  .animate-in-left {animation: slide-in-left;}
+  .animate-in-right {animation: slide-in-right;}
+  .animate-in-bottom {animation: slide-in-bottom;}
+  .animate-in-top {animation: slide-in-bottom;}
+}
+@media (max-width: 1024px) {
+  .animate-in-left {animation: none;}
+  .animate-in-right {animation: none;}
+  .animate-in-bottom {animation: none;}
+  .animate-in-top {animation: none;}
+}

@@ -5,7 +5,7 @@
 
         <div class="party__wrap party__wrap--layout-left">
 
-          <div class="party__row party__row--top">
+          <div class="party__row party__row--top loading">
             <div class="section__title section__title--pos-right">
               <h1 class="hidden" data-animate="animate-in-right" data-duration="2">Atrium<br> Lunch</h1>
             </div>
@@ -21,7 +21,7 @@
               </div>
             </div>
 
-            <div class="row---bottom__right hidden" data-animate="animate-in-right" data-duration="1.5">
+            <div class="row---bottom__right hidden loading" data-animate="animate-in-right" data-duration="1.5">
               <div class="party__row__image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/cocktail-1.jpg"></div>
             </div>
 

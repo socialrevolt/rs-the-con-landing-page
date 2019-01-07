@@ -1,9 +1,9 @@
 <section class="section section--padding" id="<?php echo $id_3; ?>">
   <div class="banner banner--quote  flex flex--v-middle flex--h-middle flex--wrap">
     <div class="banner__bg lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-1.jpg">
-      <!-- <div class="inner-container">
-        <img class="banner__bg--overlay banner__bg--overlay--1 lazyload" data-src="<?php //echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-1-overlay.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="578" height="1058" />
-      </div> -->
+      <div class="inner-container">
+        <img class="banner__bg--overlay banner__bg--overlay--1 lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-1-overlay.png" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="365" height="520" />
+      </div>
     </div>
     <div class="outer-container">
       <div class="inner-container inner-container--reduced">
