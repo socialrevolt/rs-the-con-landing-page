@@ -237,6 +237,7 @@ body.overflow-hidden{overflow:hidden}
 .section:not(.section--crescent-court):not(.section--real-impact){overflow-x:hidden}
 .section__cover-image{width:calc(100% + 40px);margin-left:-20px}
 .video-viewport video{width:auto;height:100%}
+.banner__bg--overlay{width:auto;max-height:420px}
 }@media(max-width:1023px){.inner-container--reduced{padding:0 50px}
 .tab-navigation{margin-bottom:20px}
 .section__wrap{padding:50px 0}
