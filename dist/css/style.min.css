@@ -79,7 +79,8 @@ body.overflow-hidden{overflow:hidden}
 .header__menu__item a:hover span{-webkit-transform:scale(0.9);transform:scale(0.9)}
 .header__menu__item a:hover:before,.header__menu__item a:hover:after{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
 .header__menu__item--active{color:white}
-.header_navigation_close{position:absolute;background:0;outline:0;border:0;right:50px;top:30px;display:inline-block;width:32px;height:32px}
+.header_navigation_close{position:absolute;background:0;outline:0;border:0;right:50px;top:30px;width:32px;height:32px;padding:0;cursor:pointer}
+.header_navigation_close i{display:block;width:100%;height:100%;position:relative}
 .header_navigation_close i:before,.header_navigation_close i:after{position:absolute;left:15px;content:' ';height:33px;width:2px;background-color:#fff}
 .header_navigation_close i:before{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
 .header_navigation_close i:after{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
@@ -233,6 +234,7 @@ body.overflow-hidden{overflow:hidden}
 .animate-in-top{-webkit-animation:slide-in-bottom;animation:slide-in-bottom}
 .header.header-pin:not(.show-top) .header__top{overflow:hidden;position:relative;margin-top:-54px}
 .header.header-unpin:not(.show-top){top:-54px}
+.header_navigation_close{display:none}
 }@media screen and (min-width:1440px){.text-link{font-size:23px}
 .text-link--small{font-size:20px}
 .header__menu__item{font-size:16px}
@@ -260,9 +262,10 @@ body.overflow-hidden{overflow:hidden}
 .header__menu.is-active{visibility:visible;opacity:1;z-index:9999}
 .header__menu__item{width:100%;display:block}
 .header__menu__item+.header__menu__item{margin-top:20px}
+.header_navigation_close{display:inline-block}
 .section:not(.section--crescent-court):not(.section--real-impact){overflow-x:hidden}
 .section__cover-image{width:calc(100% + 40px);margin-left:-20px}
-.video-viewport video{width:auto;height:100%}
+.video-viewport video{width:auto;min-height:100%}
 .banner__bg--overlay{width:auto;max-height:420px}
 }@media(max-width:1023px){.inner-container--reduced{padding:0 50px}
 .tab-navigation{margin-bottom:20px}
