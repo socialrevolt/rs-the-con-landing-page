@@ -19,20 +19,24 @@
           <div class="section__content hidden" data-animate="animate-in-bottom" data-duration="2.2">
             <div class="tabs">
               <div id="thursday" class="active">
-                <p><strong>9-10 AM</strong><br>Breakfast</p>
-                <p><strong>10 AM-12 PM</strong><br>Keynotes</p>
-                <p><strong>12-2 PM</strong><br>Courtyard Lunch</p>
-                <p><strong>2-4:45</strong><br>Classroom Sessions</p>
-                <p>rewardStyle Design + Product <br>Studio</p>
-                <p>Private Brand + Influencer <br>Meetings</p>
-                <p>Brand Suites in the <br>Networking Hall</p>
-                <p><strong>6-80 PM</strong><br>Cocktail Party</p>
+                <p><strong>2-4 PM</strong><br>Arrival + Check In</p>
+                <p><strong>2-4 PM</strong><br>Brand + Influencer Mixer</p>
+                <p><strong>5-7 PM</strong><br>Rooftop Pool Party</p>
               </div>
               <div id="friday">
-                <p>Needs Content</p>
+                <p><strong>9-10 AM</strong><br>Breakfast</p>
+                <p><strong>10 AM - 12 PM</strong><br>Keynotes</p>
+                <p><strong>12- 2 PM</strong><br>Courtyard Lunch</p>
+                <p><strong>2-4:45 PM</strong><br>Classroom Sessions<br>rewardStyle Design + Product Studio<br>Private Brand + Influencer Meetings<br>Brand Suites in the Networking Hall</p>
+                <p><strong>6-8 PM</strong><br>Cocktail Party</p>
               </div>
               <div id="saturday">
-                <p>Needs Content</p>
+                <p><strong>9-10 AM</strong><br>Breakfast</p>
+                <p><strong>10 AM - 12 PM</strong><br>Classroom Sessions<br>rewardStyle Design + Product Studio<br>Private Brand + Influencer Meetings<br>Brand Suites in the Networking Hall</p>
+                <p><strong>12- 2 PM</strong><br>Garden Lunch</p>
+                <p><strong>2-4 PM</strong><br>Classroom Sessions<br>rewardStyle Design + Product Studio<br>Private Brand + Influencer Meetings</p>
+                <p><strong>2-3 PM</strong><br>Brand Suites in the Networking Hall</p>
+                <p><strong>7-10 PM</strong><br>LIKEtoKNOW.it Party</p>
               </div>
             </div>
           </div>
