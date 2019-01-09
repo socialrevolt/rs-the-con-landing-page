@@ -61,6 +61,6 @@ get_header();
     // 13. Liketoknow.it Party
     include( locate_template( 'views/sections/liketoknow.php', false, false ) );
     // 14. The Brands
-    include( locate_template( 'views/sections/brands.php', false, false ) );
+    // include( locate_template( 'views/sections/brands.php', false, false ) );
   endwhile;
 get_footer();
