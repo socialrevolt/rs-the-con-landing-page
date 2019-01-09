@@ -18,7 +18,9 @@
 
         <div class="section__column">
           <div class="section__content hidden" data-animate="animate-in-bottom" data-duration="1.2">
-            <p>With its magnificent structure and stunning 2017 interior renovation, the hotel is the centerpiece of Uptown-Dallas' upscale art, shopping, and entertainment district. Having won accolades as one of the best hotels in the US, the Hotel Crescent Court, renowned for its elegant, neo-French classical design, luxe accommodations and refined service, is the perfect home for our 6th annual #rStheCon and the premium digital lifestyle influencers and global brands who will attend.</p>
+            <p>rewardStyle the Conference has called Dallas' distinguished Hotel Crescent Court home for the past three years. With its magnificent structure and stunning renovation, the Crescent is the centerpiece of Uptown-Dallas' upscale art, shopping, and entertainment district.</p>
+            <p>Renowned for its elegant neo-French classical design, luxe accommodations, and unmatched service, Hotel Crescent Court is the perfect home for the 7th annual #rStheCon.</p>
+            <p>We can’t wait to enjoy the space and weekend together.</p>
             <p><strong>Check-in: Thursday, April 4</strong><br><strong>Check-out: Sunday, April 6</strong></p>
             <p><strong>#rStheCon Nightly Rate: $285</strong></p>
             <p><a href="#" class="text-link text-link--black">Book<br> Now</a></p>
