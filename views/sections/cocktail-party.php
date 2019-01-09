@@ -20,8 +20,8 @@
 
             <div class="row---bottom__right">
               <div class="section__content section__content--party">
-                <p><strong>Thursday, 5-7pm</strong><br>Hotel Crescent Court Pool</p>
-                <p>Kick off #rStheCon with a sun-soaked afternoon at Hotel Crescent Court's urban-chic rooftop pool</p>
+                <p><strong>Friday, 6-8pm</strong><br>Crescent Atrium</p>
+                <p>Spend golden hour clinking a cocktail or two with Express at the gorgeous Crescent Promenade</p>
               </div>
             </div>
 

@@ -21,7 +21,7 @@
             <div class="row---bottom__right">
               <div class="section__content section__content--party">
                 <p><strong>Thursday, 5-7</strong><br>Hotel Crescent Court Pool</p>
-                <p>Kick off #rStheCon with a sun-soaked afternoon at Hotel Crescent Court's urban-chic rooftop pool</p>
+                <p>Kick off #rStheCon with a dip and a sip at Hotel Crescent Court's gorgeous rooftop pool</p>
               </div>
             </div>
 

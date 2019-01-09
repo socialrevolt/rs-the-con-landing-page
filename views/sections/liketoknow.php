@@ -20,8 +20,8 @@
 
             <div class="row---bottom__right">
               <div class="section__content section__content--party">
-                <p><strong>Thursday, 5-7pm</strong><br>Hotel Crescent Court Pool</p>
-                <p>Kick off #rStheCon with a sun-soaked afternoon at Hotel Crescent Court's urban-chic rooftop pool</p>
+                <p><strong>Saturday, 7-10pm</strong><br>Sixty five hundred</p>
+                <p>Join LIKEtoKNOW.it for a dreamy finale party full of unforgettable surprises and experiences at one of Dallas’ most stunning venues — Sixty five hundred</p>
               </div>
             </div>
 

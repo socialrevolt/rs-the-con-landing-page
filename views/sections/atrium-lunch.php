@@ -16,8 +16,8 @@
 
             <div class="row---bottom__left">
               <div class="section__content section__content--party">
-                <p><strong>Friday, 12-2pm</strong><br>Hotel Crescent Courtyard</p>
-                <p>Join us for a capture-worthy lunch held in the floral-filled courtyard of Hotel Crescent Court</p>
+                <p><strong>Saturday, 12-2pm</strong><br>Crescent Atrium</p>
+                <p>Say “Oui!” To lunch in the French gardens of Marie Gabrielle</p>
               </div>
             </div>
 

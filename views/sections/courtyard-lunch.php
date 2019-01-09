@@ -17,7 +17,7 @@
             <div class="row---bottom__left">
               <div class="section__content section__content--party">
                 <p><strong>Friday, 12-2pm</strong><br>Hotel Crescent Courtyard</p>
-                <p>Join us for a capture-worthy lunch held in the floral-filled courtyard of Hotel Crescent Court</p>
+                <p>Get your appetite and camera ready for a stunning lunch in the floral-filled Hotel Crescent Court courtyard</p>
               </div>
             </div>
 
