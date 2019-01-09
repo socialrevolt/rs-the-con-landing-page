@@ -22,7 +22,7 @@
             </div>
 
             <div class="row---bottom__right hidden" data-animate="animate-in-right" data-duration="1.5">
-              <div class="party__row__image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/cocktail-1.jpg"></div>
+              <div class="party__row__image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/courtyard-lunch-2.jpg"></div>
             </div>
 
           </div>
