@@ -7,7 +7,7 @@
           <div class="section__title section__title--pos-left">
             <h1 class="orientation--270">Real<br> Impact</h1>
           </div>
-          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1"><strong>rewardStyle the Conference is an annual, by-invitation event for high-performance global influencers and brands. Held in its hometown of Dallas, Texas, the conference started in 2012 and is celebrating its 7th season this year.</strong></div>
+          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1">rewardStyle the Conference is an annual, by-invitation event for high-performance global influencers and brands. Held in its hometown of Dallas, Texas, the conference started in 2012 and is celebrating its 7th season this year.</div>
           <div class="section__image">
             <div class="section__image__wrap">
               <img class="hidden" data-animate="animate-in-bottom" data-duration="1.2" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/speaker-1.jpg" />

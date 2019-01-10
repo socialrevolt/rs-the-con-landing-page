@@ -8,7 +8,7 @@
           <div class="section__title section__title--pos-left hidden" data-animate="animate-in-bottom" data-duration="1.2">
             <h1 class="orientation--270">Hotel<br> Crescent Court</h1>
           </div>
-          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1.2"><strong>rewardStyle the Conference has made its home at Dallas' distinguished Hotel Crescent Court.</strong></div>
+          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1.2">rewardStyle the Conference has made its home at Dallas' distinguished Hotel Crescent Court.</div>
           <div class="reservation-info reservation-desktop hidden" data-animate="animate-in-bottom" data-duration="1.2">
             <p>Book your reservations before March 1. Full deposit required at time of booking.</p>
             <p>Reservations can be cancelled on or before March 12th. Any cancellation after March 12 is non-refundable.</p>

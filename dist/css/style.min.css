@@ -108,7 +108,7 @@ body.overflow-hidden{overflow:hidden}
 .section__content:not(.section__content--intro):not(.section__content--party){padding-top:70px}
 .section__content p{margin:0}
 .section__content p+p{margin-top:40px}
-.section__content--intro{font-size:18px;line-height:36px}
+.section__content--intro{font-family:"Gotham Bold",sans-serif;font-weight:bold;font-size:18px;line-height:36px}
 .section__content--party{padding-top:30px}
 .section__image{position:relative}
 .section__image__wrap{width:100%}

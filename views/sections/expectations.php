@@ -4,7 +4,7 @@
       <div class="section__wrap flex flex--wrap">
 
         <div class="section__column">
-          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1.2"><strong>This will be intro for the exciting copy that will overview what influencers can expect to learn at conference this year.</strong></div>
+          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1.2">This will be intro for the exciting copy that will overview what influencers can expect to learn at conference this year.</div>
         </div>
 
         <div class="section__column">
