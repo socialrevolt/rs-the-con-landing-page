@@ -143,16 +143,3 @@ function cc_mime_types($mimes) {
   return $mimes;
 }
 add_filter('upload_mimes', 'cc_mime_types');
-
-/* == adds google fonts ============================================================= */
-add_action( 'wp_enqueue_scripts', 'load_google_fonts' );
-function load_google_fonts() {
-  // Setup font arguments
-	$query_args = array(
-		'family' => 'Montserrat:400,500,700' // Change this font to whatever font you'd like
-	);
- 	// A safe way to register a CSS style file for later use
-	wp_register_style( 'google-fonts', add_query_arg( $query_args, "//fonts.googleapis.com/css" ), array(), null );
-	// A safe way to add/enqueue a CSS style file to a WordPress generated page
-	wp_enqueue_style( 'google-fonts' );
-}

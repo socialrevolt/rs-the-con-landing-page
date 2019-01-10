@@ -27,3 +27,12 @@
     font-weight: 300;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Gotham Bold';
+    src: url('GothamSSm-Bold.woff2') format('woff2'),
+        url('GothamSSm-Bold.woff') format('woff'),
+        url('GothamSSm-Bold.svg#GothamSSm-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
