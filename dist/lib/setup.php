@@ -55,7 +55,7 @@ function rs_header_icons() {
   $output .= '<link rel="apple-touch-icon" sizes="114x114" href="' . get_template_directory_uri() . '/dist/img/favicon/fav_114.png' . '" />' . "\n";
   $output .= '<link rel="apple-touch-icon" sizes="72x72" href="' . get_template_directory_uri() . '/dist/img/favicon/fav_72.png' . ' " />' . "\n";
   $output .= '<link rel="apple-touch-icon" href="' . get_template_directory_uri() . '/dist/img/favicon/fav_apple.png' . '" />' . "\n";
-  $output .= '<link id="favicon" rel="shortcut icon" href="' . get_template_directory_uri() . '/dist/img/favicon/favicon.png' . '" type="image/png">' . "\n";
+  $output .= '<link id="favicon" rel="shortcut icon" href="' . get_template_directory_uri() . '/favicon.jpg' . '" type="image/jpeg">' . "\n";
   echo $output;
 }
 add_action('wp_head', 'rs_header_icons');
