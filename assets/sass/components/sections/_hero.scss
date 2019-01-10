@@ -31,6 +31,9 @@
       width: auto;
       min-height: 100%;
     }
+    @media (max-width: 575px) {
+      height: 100%;
+    }
   }
 }
 
