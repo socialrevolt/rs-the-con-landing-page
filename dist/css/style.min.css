@@ -187,6 +187,7 @@ body.overflow-hidden{overflow:hidden}
 .section__quote p{font-size:20px;line-height:40px}
 .banner__content{font-size:20px;line-height:40px}
 }@media(min-width:801px){.section__image{width:calc(100% + 150px);padding-right:30px;min-height:1px;margin-left:-90px}
+}@media(min-width:801px) and (max-width:1023px){.party__wrap--layout-left .party__row--top img{min-width:calc(100% + 140px);width:auto;margin-right:-70px;margin-left:-70px;max-width:none}
 }@media screen and (min-width:900px){.text-link{font-size:23px}
 .text-link--small{font-size:20px}
 .header__menu__item{font-size:16px}
@@ -289,7 +290,6 @@ body.overflow-hidden{overflow:hidden}
 .reservation-info p+p{margin-top:10px;font-size:12px}
 .party__wrap--layout-right .party__row--top{width:calc(100% + 140px);margin-left:-70px}
 .party__wrap--layout-right .party__row--bottom .row---bottom__left .section__title{margin-top:50px;margin-bottom:0}
-.party__wrap--layout-left .party__row--top img{width:calc(100% + 140px);margin-right:-70px;margin-left:-70px;max-width:none}
 .party__wrap--layout-left .party__row--top{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap}
 .party__wrap--layout-left .party__row--top>img{-webkit-box-ordinal-group:2;-ms-flex-order:1;order:1}
 .party__wrap--layout-left .party__row--top .section__title{-webkit-box-ordinal-group:3;-ms-flex-order:2;order:2}
@@ -300,6 +300,7 @@ body.overflow-hidden{overflow:hidden}
 .party__wrap{text-align:center}
 .party__wrap--layout-right .party__row--bottom{padding:0 50px}
 .party__wrap--layout-right .party__row--bottom .row---bottom__left{width:100%}
+.party__wrap--layout-left .party__row--top img{width:auto;height:auto;margin-right:-70px;margin-left:-70px;max-width:none}
 .party__wrap--layout-left .party__row--top .section__title{width:100%}
 .party__wrap--layout-left .party__row--bottom{padding:0 50px}
 .party__wrap--layout-left .party__row--bottom .row---bottom__left{width:100%}

@@ -72,10 +72,22 @@
           }
         }
       }
-      @media (max-width: 1023px) {
+      @media (min-width: 801px) and (max-width: 1023px) {
         .party__row--top {
           img {
-            width: calc(100% + 140px);
+            min-width: calc(100% + 140px);
+            width: auto;
+            margin-right: -70px;
+            margin-left: -70px;
+            max-width: none;
+          }
+        }
+      }
+      @media (max-width: 800px) {
+        .party__row--top {
+          img {
+            width: auto;
+            height: auto;
             margin-right: -70px;
             margin-left: -70px;
             max-width: none;
