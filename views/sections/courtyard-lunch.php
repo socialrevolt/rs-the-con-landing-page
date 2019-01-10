@@ -9,7 +9,7 @@
             <div class="section__title section__title--pos-right">
               <h1 class="hidden" data-animate="animate-in-right" data-duration="2">Courtyard<br> Lunch</h1>
             </div>
-            <img class="lazyload hidden" data-animate="animate-in-left" data-duration="1.2" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/courtyard-lunch-1.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+            <img class="hidden" data-animate="animate-in-bottom" data-duration="1.2" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/courtyard-lunch-1.jpg" />
           </div>
 
           <div class="party__row party__row--bottom flex flex--wrap">
@@ -21,8 +21,8 @@
               </div>
             </div>
 
-            <div class="row---bottom__right hidden" data-animate="animate-in-right" data-duration="1.5">
-              <div class="party__row__image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/courtyard-lunch-2.jpg"></div>
+            <div class="row---bottom__right hidden" data-animate="animate-in-bottom" data-duration="1.5">
+              <div class="party__row__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/courtyard-lunch-2.jpg);"></div>
             </div>
 
           </div>

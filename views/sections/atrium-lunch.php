@@ -23,7 +23,7 @@
               </div>
             </div>
 
-            <div class="row---bottom__right hidden loading" data-animate="animate-in-right" data-duration="1.5">
+            <div class="row---bottom__right hidden" data-animate="animate-in-right" data-duration="1.5">
               <div class="party__row__image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/atriumlunch-2.jpg);"></div>
             </div>
 

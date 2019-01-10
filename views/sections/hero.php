@@ -1,9 +1,9 @@
 <section class="hero" id="<?php echo $id_1; ?>">
   <div class="hero__viewport">
-    <div class="video-viewport loading">
-      <video class="lazyload" width="1920" height="1274" autoplay muted loop data-poster="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/ltk-1.jpg" preload="none">
+    <div class="video-viewport">
+      <video width="1920" height="1274" autoplay muted loop data-poster="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/ltk-1.jpg" preload="none">
         <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rStheCon.webm" type="video/webm">
-          <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rStheCon.mov" type="video/mov">
+        <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rStheCon.mov" type="video/mov">
       </video>
     </div>
     <div class="content-viewport outer-container flex flex--v-middle flex--h-middle flex--wrap">

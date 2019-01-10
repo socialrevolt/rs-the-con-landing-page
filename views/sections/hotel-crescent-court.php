@@ -1,11 +1,11 @@
 <section class="section section--padding section--crescent-court" id="<?php echo $id_4; ?>">
   <div class="outer-container">
-    <div class="section__cover-image lazyload" data-bg="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/crescent.jpg"></div>
+    <div class="section__cover-image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/crescent.jpg);"></div>
     <div class="inner-container inner-container--reduced">
       <div class="section__wrap section__wrap--with-bg flex flex--wrap">
 
         <div class="section__column section--crescent-court__column">
-          <div class="section__title section__title--pos-left hidden" data-animate="animate-in-left" data-duration="1.2">
+          <div class="section__title section__title--pos-left hidden" data-animate="animate-in-bottom" data-duration="1.2">
             <h1 class="orientation--270">Hotel<br> Crescent Court</h1>
           </div>
           <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1.2">rewardStyle the Conference has made its home at Dallas' distinguished Hotel Crescent Court.</div>

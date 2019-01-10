@@ -4,13 +4,13 @@
       <div class="section__wrap section__wrap--with-bg flex flex--wrap">
         <div class="section__column">
           <div class="tab-navigation">
-            <a class="tab-link active hidden" data-animate="animate-in-left" data-duration="1.2" href="#thursday" >Thursday</a>
-            <a class="tab-link hidden" data-animate="animate-in-left" data-duration="1.6" href="#friday">Friday</a>
-            <a class="tab-link hidden" data-animate="animate-in-left" data-duration="2" href="#saturday">Saturday</a>
+            <a class="tab-link active hidden" data-animate="animate-in-bottom" data-duration="1.2" href="#thursday" >Thursday</a>
+            <a class="tab-link hidden" data-animate="animate-in-bottom" data-duration="1.6" href="#friday">Friday</a>
+            <a class="tab-link hidden" data-animate="animate-in-bottom" data-duration="2" href="#saturday">Saturday</a>
           </div>
           <div class="section__image">
-            <div class="section__image__wrap loading">
-              <img class="lazyload" data-src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/schedule-1.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" />
+            <div class="section__image__wrap">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/schedule-1.jpg" />
             </div>
           </div>
         </div>
