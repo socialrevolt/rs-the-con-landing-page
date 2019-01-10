@@ -35,7 +35,7 @@ template{display:none}
 @font-face{font-family:'Gotham SSm';src:local("Gotham SSm Book"),local("GothamSSm-Book"),url("../fonts/GothamSSm-Book.woff2") format("woff2"),url("../fonts/GothamSSm-Book.woff") format("woff"),url("../fonts/GothamSSm-Book.svg#GothamSSm-Book") format("svg");font-weight:normal;font-style:normal}
 @font-face{font-family:'Gotham Medium';src:local("Gotham Medium"),local("Gotham-Medium"),url("../fonts/Gotham-Medium.woff2") format("woff2"),url("../fonts/Gotham-Medium.woff") format("woff"),url("../fonts/Gotham-Medium.svg#Gotham-Medium") format("svg");font-weight:500;font-style:normal}
 @font-face{font-family:'Gotham Light';src:local("Gotham Light"),local("Gotham-Light"),url("../fonts/Gotham-Light.woff2") format("woff2"),url("../fonts/Gotham-Light.woff") format("woff"),url("../fonts/Gotham-Light.svg#Gotham-Light") format("svg");font-weight:300;font-style:normal}
-@font-face{font-family:'Gotham Bold';src:url("GothamSSm-Bold.woff2") format("woff2"),url("GothamSSm-Bold.woff") format("woff"),url("GothamSSm-Bold.svg#GothamSSm-Bold") format("svg");font-weight:bold;font-style:normal}
+@font-face{font-family:'Gotham Bold';src:url("../fonts/GothamSSm-Bold.woff2") format("woff2"),url("../fonts/GothamSSm-Bold.woff") format("woff"),url("../fonts/GothamSSm-Bold.svg#GothamSSm-Bold") format("svg");font-weight:bold;font-style:normal}
 .orientation--0{-webkit-transform:rotate(0);transform:rotate(0)}
 .orientation--90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
 .orientation--180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
