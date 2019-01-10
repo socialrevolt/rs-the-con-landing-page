@@ -1,16 +1,16 @@
 //--------------------
 // IMAGE LAZY LOADING
 //--------------------
-window.lazySizesConfig = window.lazySizesConfig || {};
-
-var lazy = function lazy() {
-	document.addEventListener('lazyloaded', function (e)  {
-		e.target.parentNode.classList.add('image-loaded');
-		e.target.parentNode.classList.remove('loading');
-	});
-}
-
-lazy();
+// window.lazySizesConfig = window.lazySizesConfig || {};
+//
+// var lazy = function lazy() {
+// 	document.addEventListener('lazyloaded', function (e)  {
+// 		e.target.parentNode.classList.add('image-loaded');
+// 		e.target.parentNode.classList.remove('loading');
+// 	});
+// }
+//
+// lazy();
 
 jQuery(document).ready(function($) {
 
