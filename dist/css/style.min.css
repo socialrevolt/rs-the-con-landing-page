@@ -240,7 +240,7 @@ body.overflow-hidden{overflow:hidden}
 .animate-in-bottom{-webkit-animation:slide-in-bottom;animation:slide-in-bottom}
 .animate-in-top{-webkit-animation:slide-in-bottom;animation:slide-in-bottom}
 .header_navigation_close{display:none}
-}@media(min-width:1367px){.banner__bg{height:490px}
+}@media(min-width:1367px){.banner__bg{height:490px;text-align:center;max-width:2000px}
 .banner__bg--one img{height:600px}
 .banner__bg--two{margin-top:50px}
 .banner__bg--two img{height:750px}
