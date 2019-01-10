@@ -51,7 +51,7 @@ body.overflow-hidden{overflow:hidden}
 .outer-container{max-width:1064px;margin:0 auto}
 .inner-container{max-width:1064px;margin:0 auto}
 .inner-container--reduced{position:relative;padding:0 90px}
-.btn{padding:0 40px;line-height:50px;display:inline-block;border-width:1px 1px 1px 1px;border-style:solid;text-decoration:none;text-transform:uppercase;font-weight:700;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
+.btn{padding:0 40px;line-height:50px;display:inline-block;border-width:1px 1px 1px 1px;border-style:solid;text-decoration:none;text-transform:uppercase;font-family:"Gotham Medium",sans-serif;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
 .btn--white{border-color:#fff;color:#fff}
 .btn--white:hover,.btn--white:focus{background-color:#fff;color:#000}
 .btn--black{border-color:#000;color:#000}
