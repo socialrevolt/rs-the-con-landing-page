@@ -157,7 +157,7 @@ body.overflow-hidden{overflow:hidden}
 .banner .outer-container{position:absolute;z-index:10}
 .banner--quote{text-align:center}
 .banner--register{text-align:center}
-.banner__content{color:#fff;padding:45px 0;font-weight:normal;font-size:18px;line-height:36px}
+.banner__content{color:#fff;padding:45px 0;font-weight:bold;font-size:18px;line-height:36px}
 .banner__bg{position:relative;z-index:5;width:100%}
 .banner__bg img{position:absolute;bottom:0;left:0;max-width:none}
 .banner__bg.gradient-overlay:before{position:absolute;top:0;left:0;width:100%;height:100%;display:block;z-index:5;content:'';background:-webkit-gradient(linear,left top,left bottom,from(rgba(0,0,0,0)),to(rgba(0,0,0,0.5)));background:linear-gradient(to bottom,rgba(0,0,0,0) 0,rgba(0,0,0,0.5) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#80000000',GradientType=0)}
@@ -232,12 +232,11 @@ body.overflow-hidden{overflow:hidden}
 .animate-in-bottom{-webkit-animation:slide-in-bottom;animation:slide-in-bottom}
 .animate-in-top{-webkit-animation:slide-in-bottom;animation:slide-in-bottom}
 .header_navigation_close{display:none}
-}@media(min-width:1367px){.banner__bg--one{height:490px}
+}@media(min-width:1367px){.banner__bg{height:490px}
 .banner__bg--one img{height:600px}
-.banner__bg--two{height:490px}
-.banner__bg--two img{height:600px}
-.banner__bg--three{height:490px}
-.banner__bg--three img{height:600px}
+.banner__bg--two{margin-top:50px}
+.banner__bg--two img{height:750px}
+.banner__bg--three img{height:500px}
 }@media screen and (min-width:1440px){.text-link{font-size:23px}
 .text-link--small{font-size:20px}
 .header__menu__item{font-size:16px}
@@ -246,12 +245,10 @@ body.overflow-hidden{overflow:hidden}
 .section__title h1{font-size:40px}
 .section__quote p{font-size:20px}
 .banner__content{font-size:20px}
-}@media(max-width:1366px){.banner__bg--one{height:365px}
+}@media(max-width:1366px){.banner__bg{height:365px}
 .banner__bg--one img{height:460px}
-.banner__bg--two{height:365px}
-.banner__bg--two img{height:460px}
-.banner__bg--three{height:365px}
-.banner__bg--three img{height:460px}
+.banner__bg--two img{height:600px}
+.banner__bg--three img{height:400px}
 }@media(max-width:1024px){.hidden{opacity:1}
 .animate-in-left{-webkit-animation:none;animation:none}
 .animate-in-right{-webkit-animation:none;animation:none}

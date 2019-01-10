@@ -9,7 +9,7 @@
             <a class="tab-link hidden" data-animate="animate-in-bottom" data-duration="2" href="#saturday">Saturday</a>
           </div>
           <div class="section__image">
-            <div class="section__image__wrap">
+            <div class="section__image__wrap hidden" data-animate="animate-in-bottom" data-duration="1.6">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/schedule-1.jpg" />
             </div>
           </div>

@@ -20,7 +20,7 @@
   @include e('content') {
     color: $base-white-color;
     padding: 45px 0;
-    font-weight: normal;
+    font-weight: bold;
     @include font-size($intro-font-sizes); // _shared-variables.scss
   }
   @include e('bg') {
@@ -33,15 +33,19 @@
       left: 0;
       max-width: none;
     }
+    @media (min-width: 1367px) {
+      height: 490px;
+    }
+    @media (max-width: 1366px) {
+      height: 365px;
+    }
     @include m('one') {
       @media (min-width: 1367px) {
-        height: 490px;
         img {
           height: 600px;
         }
       }
       @media (max-width: 1366px) {
-        height: 365px;
         img {
           height: 460px;
         }
@@ -49,29 +53,26 @@
     }
     @include m('two') {
       @media (min-width: 1367px) {
-        height: 490px;
+        margin-top: 50px;
         img {
-          height: 600px;
+          height: 750px;
         }
       }
       @media (max-width: 1366px) {
-        height: 365px;
         img {
-          height: 460px;
+          height: 600px;
         }
       }
     }
     @include m('three') {
       @media (min-width: 1367px) {
-        height: 490px;
         img {
-          height: 600px;
+          height: 500px;
         }
       }
       @media (max-width: 1366px) {
-        height: 365px;
         img {
-          height: 460px;
+          height: 400px;
         }
       }
     }

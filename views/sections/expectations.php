@@ -1,4 +1,4 @@
-<section class="section ection--padding section--expectations" id="<?php echo $id_7; ?>">
+<section class="section section--padding section--expectations" id="<?php echo $id_7; ?>">
   <div class="outer-container">
     <div class="inner-container inner-container--reduced">
       <div class="section__wrap flex flex--wrap">
