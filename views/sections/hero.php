@@ -1,7 +1,7 @@
 <section class="hero" id="<?php echo $id_1; ?>">
   <div class="hero__viewport">
     <div class="video-viewport">
-      <video width="1920" height="1274" autoplay muted loop data-poster="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/ltk-1.jpg" preload="none">
+      <video width="1920" height="1274" playsinline autoplay muted loop data-poster="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/ltk-1.jpg" preload="none">
         <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rStheCon.webm" type="video/webm">
         <source src="<?php echo get_stylesheet_directory_uri(); ?>/dist/vid/rStheCon.mp4" type="video/mp4">
       </video>
