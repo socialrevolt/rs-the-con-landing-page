@@ -91,8 +91,8 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
     z-index: 100;
     h1 {
       text-transform: uppercase;
-      font-weight: 700;
-      text-decoration: underline;
+      text-decoration: none;
+      font-family: $font-family-medium;
       margin: 0;
       @include font-size($h1-font-sizes);
       @media (max-width: 1023px) {
@@ -157,7 +157,6 @@ $column-spacing-image: $column-spacing-total + $column-spacing-inner;
     }
     p {
       @include font-size($intro-font-sizes);
-      font-weight: 700;
       margin-bottom: 80px;
     }
     span {
