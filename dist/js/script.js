@@ -274,6 +274,7 @@ jQuery(document).ready(function ($) {
   var link = $(".header__bottom__toggler"),
       body = $("body"),
       close = $(".header_navigation_close"),
+      header = $(".header"),
       menu = $(".header__menu"); //--------------------
   //  MENU TOGGLE
   //--------------------
@@ -282,10 +283,12 @@ jQuery(document).ready(function ($) {
     e.stopPropagation();
     $(this).toggleClass("is-active");
     body.toggleClass("is-active");
+    header.toggleClass("is-active");
     menu.toggleClass('is-active');
   });
   close.on('click touch', function (e) {
     e.stopPropagation();
+    header.removeClass("is-active");
     menu.removeClass("is-active");
     link.removeClass("is-active");
   });

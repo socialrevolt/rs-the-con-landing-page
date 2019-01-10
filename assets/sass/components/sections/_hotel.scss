@@ -23,17 +23,19 @@
 }
 
 .reservation-info {
+  &.reservation-mobile {
+    margin-top: 40px;
+  }
   @media (min-width: 1024px) {
     position: absolute;
     bottom: 0;
     padding-right: 30px;
+    &.reservation-desktop {display: block;}
+    &.reservation-mobile {display: none;}
   }
   @media (max-width: 1023px) {
-    margin-top: 30px;
-    background-color: #ececec;
-    padding: 20px;
-    width: calc(100% + 40px);
-    margin-left: -20px;
+    &.reservation-desktop {display: none;}
+    &.reservation-mobile {display: block;}
   }
   p {
     font-size: 12px;
@@ -45,6 +47,7 @@
       margin-top: 30px;
       @media (max-width: 1023px) {
         margin-top: 10px;
+        font-size: 12px;
       }
     }
   }

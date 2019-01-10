@@ -63,7 +63,8 @@ body.overflow-hidden{overflow:hidden}
 .flex--wrap{-ms-flex-wrap:wrap;flex-wrap:wrap}
 .flex--v-middle{-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 .flex--h-middle{-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
-.header{position:fixed;width:100%;left:0;right:0;top:0;z-index:9999;-webkit-transition:all .2s ease-in-out;transition:all .2s ease-in-out;overflow:hidden;-webkit-transform:translateY(-100%);transform:translateY(-100%)}
+.header{position:fixed;width:100%;left:0;right:0;top:0;z-index:9999;height:56px;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out;overflow:hidden;-webkit-transform:translateY(-100%);transform:translateY(-100%)}
+.header.is-active{height:100%}
 .header.show{-webkit-transform:translateY(0);transform:translateY(0)}
 .header .header__top{-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
 .header__top{width:100%;text-align:center;padding:10px 0;background-color:#fff}
@@ -135,6 +136,7 @@ body.overflow-hidden{overflow:hidden}
 .section--real-impact .section__image{margin-top:170px}
 .section--crescent-court{z-index:999;position:relative}
 .section--crescent-court .inner-container{position:relative;margin-top:-100px;z-index:10}
+.reservation-info.reservation-mobile{margin-top:40px}
 .reservation-info p{font-size:12px;line-height:24px;color:#666;font-weight:500;margin:0}
 .reservation-info p+p{margin-top:30px}
 .party__wrap{position:relative;width:100%}
@@ -214,6 +216,8 @@ body.overflow-hidden{overflow:hidden}
 .section--crescent-court .section__title--pos-left{left:-90px}
 .section--crescent-court .section__title--pos-left h1{margin-left:-80px}
 .reservation-info{position:absolute;bottom:0;padding-right:30px}
+.reservation-info.reservation-desktop{display:block}
+.reservation-info.reservation-mobile{display:none}
 .party__wrap--layout-right .party__row--top{right:-90px}
 .party__wrap--layout-right .party__row--bottom .row---bottom__left{width:50%}
 .party__wrap--layout-right .party__row--bottom .row---bottom__left .section__title{-webkit-transform-origin:right bottom;transform-origin:right bottom;top:-96px;right:-15px}
@@ -280,8 +284,9 @@ body.overflow-hidden{overflow:hidden}
 .section__column{width:100%;padding:0 60px}
 .section--party .section__wrap{padding:30px 0}
 .section--real-impact .section__image{margin-top:30px}
-.reservation-info{margin-top:30px;background-color:#ececec;padding:20px;width:calc(100% + 40px);margin-left:-20px}
-.reservation-info p+p{margin-top:10px}
+.reservation-info.reservation-desktop{display:none}
+.reservation-info.reservation-mobile{display:block}
+.reservation-info p+p{margin-top:10px;font-size:12px}
 .party__wrap--layout-right .party__row--top{width:calc(100% + 140px);margin-left:-70px}
 .party__wrap--layout-right .party__row--bottom .row---bottom__left .section__title{margin-top:50px;margin-bottom:0}
 .party__wrap--layout-left .party__row--top img{width:calc(100% + 140px);margin-right:-70px;margin-left:-70px;max-width:none}
