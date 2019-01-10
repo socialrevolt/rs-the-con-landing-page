@@ -17,6 +17,15 @@
       color: $base-dark-color;
     }
   }
+  @include m('black') {
+    border-color: $base-dark-color;
+    color: $base-dark-color;
+    &:hover,
+    &:focus {
+      background-color: $base-dark-color;
+      color: $base-white-color;
+    }
+  }
 }
 
 .text-link {

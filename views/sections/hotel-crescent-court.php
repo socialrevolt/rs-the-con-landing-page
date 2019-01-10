@@ -23,7 +23,7 @@
             <p>We can’t wait to enjoy the space and weekend together.</p>
             <p><strong>Check-in: Thursday, April 4</strong><br><strong>Check-out: Sunday, April 6</strong></p>
             <p><strong>#rStheCon Nightly Rate: $285</strong></p>
-            <p><a href="https://gc.synxis.com/rez.aspx?Hotel=155&amp;Chain=19918&amp;arrive=4/3/2019&amp;depart=4/4/2019&amp;adult=1&amp;child=0&amp;group=040319REWA" target="_blank" class="text-link text-link--black">Book<br> Now</a></p>
+            <p><a href="https://gc.synxis.com/rez.aspx?Hotel=155&amp;Chain=19918&amp;arrive=4/3/2019&amp;depart=4/4/2019&amp;adult=1&amp;child=0&amp;group=040319REWA" target="_blank" class="btn btn--black">Book Now</a></p>
             <div class="reservation-info reservation-mobile hidden" data-animate="animate-in-bottom" data-duration="1.2">
               <p>Book your reservations before March 1. Full deposit required at time of booking.</p>
               <p>Reservations can be cancelled on or before March 12th. Any cancellation after March 12 is non-refundable.</p>

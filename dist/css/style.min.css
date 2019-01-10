@@ -54,6 +54,8 @@ body.overflow-hidden{overflow:hidden}
 .btn{padding:0 40px;line-height:50px;display:inline-block;border-width:1px 1px 1px 1px;border-style:solid;text-decoration:none;text-transform:uppercase;font-weight:700;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out}
 .btn--white{border-color:#fff;color:#fff}
 .btn--white:hover,.btn--white:focus{background-color:#fff;color:#000}
+.btn--black{border-color:#000;color:#000}
+.btn--black:hover,.btn--black:focus{background-color:#000;color:#fff}
 .text-link{text-transform:uppercase;text-decoration:underline;font-weight:700;-webkit-transition:all .1s ease-in-out;transition:all .1s ease-in-out;font-size:18px;line-height:24px}
 .text-link--small{font-size:18px;line-height:36px}
 .text-link--white{color:#fff}
