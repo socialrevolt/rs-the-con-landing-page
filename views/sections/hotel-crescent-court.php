@@ -1,6 +1,6 @@
 <section class="section section--padding section--crescent-court" id="<?php echo $id_4; ?>">
   <div class="outer-container">
-    <div class="section__cover-image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/crescent.png);"></div>
+    <div class="section__cover-image" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/CrescentCourtHotel.jpg);"></div>
     <div class="inner-container inner-container--reduced">
       <div class="section__wrap section__wrap--with-bg flex flex--wrap">
 
