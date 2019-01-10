@@ -1,9 +1,7 @@
 <section class="section" id="<?php echo $id_6; ?>">
   <div class="banner banner--register  flex flex--v-middle flex--h-middle flex--wrap">
-    <div class="banner__bg" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-2.jpg);">
-      <div class="inner-container">
-        <img class="banner__bg--overlay banner__bg--overlay--2" src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-2-selfie.png" width="854" height="529" />
-      </div>
+    <div class="banner__bg banner__bg--two">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/banner-bg-2-selfie.png" width="854" height="529" />
     </div>
     <div class="outer-container">
       <div class="inner-container inner-container--reduced">
