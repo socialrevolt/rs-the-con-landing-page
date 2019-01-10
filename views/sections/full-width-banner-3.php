@@ -7,7 +7,7 @@
       <div class="inner-container inner-container--reduced">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/rewardStyle-logo.png" />
         <div class="banner__content"><span itemprop="startDate" content="2019-04-04">April 4-6, 2019</span> | Dallas, Texas</div>
-        <a class="text-link text-link--small text-link--white" href="#">Register Now</a>
+        <a class="btn btn--white" href="#">Register Now</a>
       </div>
     </div>
   </div>
