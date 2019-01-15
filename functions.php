@@ -30,7 +30,7 @@ function rewardstyle_gatekeeper($env) {
         );
         $rs_proto_host = 'https://www.rewardstyle.com';
         $rs_proto_auth_host = 'https://auth.rewardstyle.com';
-        $conf_proto_host = 'http://rsthecon.rewardstyle.com';
+        $conf_proto_host = 'https://rsthecon.rewardstyle.com';
     }
 
     // check if the user is logged in
