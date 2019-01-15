@@ -14,7 +14,7 @@
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#about-the-conference"><span>Event</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-venue"><span>Venue</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-schedule"><span>Schedule</span></a></li>
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#content"><span>Content</span></a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#content"><span>Session Info</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#parties"><span>Parties</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="/"><span>Register Now</span></a></li>
           <button class="header_navigation_close"><i class="close-icon"></i></button>

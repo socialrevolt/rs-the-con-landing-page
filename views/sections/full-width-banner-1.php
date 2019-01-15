@@ -6,9 +6,9 @@
     <div class="outer-container">
       <div class="inner-container inner-container--reduced">
         <blockquote class="section__quote" cite="">
-          <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat ”</p>
+          <p>“rStheCon was STUNNING and totally exceeded all my expectations! It was an innovative experience rich with strategy—I left feeling empowered and got to see some of my dreams come to life!”</p>
           <footer itemscope itemtype="http://schema.org/Person">
-            <span itemprop="name">quote attribution</span>
+            <span style="font-size:22px;" itemprop="name">Jen Adams<br> <img src="https://rstheconstage.wpengine.com/wp-content/themes/rs-the-con-landing-page/dist/img/ltkicon-white-22px.png" />&nbsp;Interior Designerella</span>
           </footer>
         </blockquote>
       </div>

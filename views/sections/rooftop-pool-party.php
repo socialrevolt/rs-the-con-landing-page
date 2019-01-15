@@ -14,14 +14,14 @@
             <div class="row---bottom__left">
               <div class="party__row__image hidden" data-animate="animate-in-bottom" data-duration="1.6" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/pool-party-1.jpg);"></div>
               <div class="section__title section__title--pos-right orientation--270">
-                <h1 class="hidden" data-animate="animate-in-left" data-duration="2">Rooftop Pool<br> Party</h1>
+                <h1 class="hidden" data-animate="animate-in-left" data-duration="2">Rooftop Party<br> by the Pool</h1>
               </div>
             </div>
 
             <div class="row---bottom__right">
               <div class="section__content section__content--party hidden" data-animate="animate-in-bottom" data-duration="1.2">
-                <p><strong>Thursday, 5-7</strong><br>Hotel Crescent Court Pool</p>
-                <p>Kick off #rStheCon with a dip and a sip at Hotel Crescent Court's gorgeous rooftop pool</p>
+                <p><strong>Thursday, 5-7 PM</strong><br>Hotel Crescent Court Pool</p>
+                <p>Kick off #rStheCon with a scenic sip at Hotel Crescent Court's gorgeous rooftop pool</p>
               </div>
             </div>
 

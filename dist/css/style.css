@@ -503,9 +503,9 @@ body.overflow-hidden { overflow: hidden; }
 
 .video-viewport:before { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block; z-index: 5; content: ''; background-color: rgba(0, 0, 0, 0.5); }
 
-.video-viewport video { position: absolute; top: 50%; -webkit-transform: translate(0, -50%); transform: translate(0, -50%); width: 100%; }
+.video-viewport video { position: absolute; top: 50%; -webkit-transform: translate(0, -50%); transform: translate(0, -50%); width: 130%; }
 
-@media (max-width: 1024px) { .video-viewport video { width: auto; min-height: 100%; } }
+@media (max-width: 1024px) { .video-viewport video { width: 130%; min-height: 100%; } }
 
 @media (max-width: 575px) { .video-viewport video { height: 100%; } }
 

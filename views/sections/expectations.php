@@ -4,13 +4,15 @@
       <div class="section__wrap flex flex--wrap">
 
         <div class="section__column">
-          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1.2">This will be intro for the exciting copy that will overview what influencers can expect to learn at conference this year.</div>
+          <div class="section__title section__title--pos-left">
+            <h1 class="orientation--270">Class is in<br> Session</h1>
+          </div>
+          <div class="section__content section__content--intro hidden" data-animate="animate-in-bottom" data-duration="1.2">The industry is constantly evolving and keeping up with it is not a one-person job.</div>
         </div>
 
         <div class="section__column">
           <div class="section__content hidden" data-animate="animate-in-bottom" data-duration="1.6">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+            <p>Because we’re in the business of supporting and evolving your business, rStheCon offers several classroom sessions for guests to attend throughout the weekend. Each classroom chat is hosted by industry professionals who cover the most relevant and top-of-mind topics to keep you knowledgeable and ahead of the game in your business venture. From SEO and rewardStyle tools to how to make LIKEtoKNOW.it work for you and networking with global brand partners, our classroom sessions cover it all.</p>
           </div>
         </div>
 

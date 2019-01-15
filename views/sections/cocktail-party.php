@@ -12,7 +12,7 @@
           <div class="party__row party__row--bottom flex flex--wrap">
 
             <div class="row---bottom__left">
-              <div class="party__row__image hidden" data-animate="animate-in-bottom" data-duration="1.2" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/cocktail-1.jpg);"></div>
+              <div class="party__row__image hidden" data-animate="animate-in-bottom" data-duration="1.2" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/dist/img/cocktail-1a.png);"></div>
               <div class="section__title section__title--pos-right orientation--270">
                 <h1 class="hidden" data-animate="animate-in-left" data-duration="2">Cocktail<br> Party</h1>
               </div>
@@ -20,8 +20,8 @@
 
             <div class="row---bottom__right">
               <div class="section__content section__content--party hidden" data-animate="animate-in-bottom" data-duration="1.2">
-                <p><strong>Friday, 6-8pm</strong><br>Crescent Atrium</p>
-                <p>Spend golden hour clinking a cocktail or two with Express at the gorgeous Crescent Promenade</p>
+                <p><strong>Friday, 6-8 PM</strong><br>Crescent Atrium</p>
+                <p>Spend golden hour clinking a cocktail or two in the chic space of the Crescent Atrium</p>
               </div>
             </div>
 
