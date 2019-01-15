@@ -1,3 +1,11 @@
+# mktg-rsthecon
+
+## Hosted on wpengine
+
+ - Stage: http://rstheconstage.wpengine.com/
+ - Prod: http://rstheconprod.wpengine.com/
+ - Prod Alias: http://rsthecon.rewardstyle.com/
+
 ## Requirements
 
 NodeJS - [Download](https://nodejs.org/en/)  
