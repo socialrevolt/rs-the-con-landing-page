@@ -29,6 +29,7 @@ function rewardstyle_gatekeeper($env) {
             'Jp657crYvDuE8EGZ4uJKjRqd' # pass
         );
         $rs_proto_host = 'https://www.rewardstyle.com';
+        $rs_proto_auth_host = 'https://auth.rewardstyle.com';
         $conf_proto_host = 'http://rsthecon.rewardstyle.com';
     }
 
@@ -36,7 +37,7 @@ function rewardstyle_gatekeeper($env) {
     $logged_in = RewardstyleUser::get_logged_in();
     if (!$logged_in) {
         // if not, redirect them to the rewardStyle login passing a redirect back here
-        header('Location: ' . $rs_proto_host . '/rsthecon?r=' . urlencode($conf_proto_host . '/' . ltrim($request_uri, '/')), true, 302);
+        header('Location: ' . $rs_proto_auth_host . '/login/?next=' . urlencode($conf_proto_host . '/' . ltrim($request_uri, '/')), true, 302);
         exit(0);
     } else {
         // check if the account status contains the invited flag
