@@ -16,7 +16,7 @@
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#conference-schedule"><span>Schedule</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#content"><span>Session Info</span></a></li>
           <li class="header__menu__item" itemprop="name"><a itemprop="url" href="#parties"><span>Parties</span></a></li>
-          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="/"><span>Register Now</span></a></li>
+          <li class="header__menu__item" itemprop="name"><a itemprop="url" href="http://www.yesevents.com/rsthecon19"><span>Register Now</span></a></li>
           <button class="header_navigation_close"><i class="close-icon"></i></button>
         </ul>
       </nav>

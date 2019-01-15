@@ -1,7 +1,7 @@
 <section class="section" id="<?php echo $id_8; ?>" style="margin-top: -100px;">
   <div class="banner banner--quote  flex flex--v-middle flex--h-middle flex--wrap">
     <div class="banner__bg banner__bg--three">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/image-cutout-6c.png" />
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/dist/img/image-cutout-6d.png" />
     </div>
     <div class="outer-container">
       <div class="inner-container inner-container--reduced">
